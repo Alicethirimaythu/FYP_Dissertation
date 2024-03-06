@@ -1,0 +1,29 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{{\em akrasia, n.}}{n.d.}{oed:akrasia}
+{\em akrasia, n.}  \harvardyearleft n.d.\harvardyearright .
+\newline\harvardurl{https://www.oed.com/view/Entry/240257?redirectedFrom=akrasia}
+
+\harvarditem[Ameer et~al.]{Ameer, Bölücü, Siddiqui, Can, Sidorov
+  \harvardand\ Gelbukh}{2023}{AMEER2023118534}
+Ameer, I., Bölücü, N., Siddiqui, M. H.~F., Can, B., Sidorov, G. \harvardand\
+  Gelbukh, A.  \harvardyearleft 2023\harvardyearright , `Multi-label emotion
+  classification in texts using transfer learning', {\em Expert Systems with
+  Applications} {\bf 213},~118534.
+\newline\harvardurl{https://www.sciencedirect.com/science/article/pii/S0957417422016098}
+
+\harvarditem[Saravia et~al.]{Saravia, Liu, Huang, Wu \harvardand\
+  Chen}{2018}{saravia-etal-2018-carer}
+Saravia, E., Liu, H.-C.~T., Huang, Y.-H., Wu, J. \harvardand\ Chen, Y.-S.
+  \harvardyearleft 2018\harvardyearright , {CARER}: Contextualized affect
+  representations for emotion recognition, {\em in} `Proceedings of the 2018
+  Conference on Empirical Methods in Natural Language Processing', Association
+  for Computational Linguistics, Brussels, Belgium, pp.~3687--3697.
+\newline\harvardurl{https://www.aclweb.org/anthology/D18-1404}
+
+\harvarditem{{\em What is natural language processing (NLP)?}}{n.d.}{nlp}
+{\em What is natural language processing (NLP)?}  \harvardyearleft
+  n.d.\harvardyearright .
+\newline\harvardurl{https://www.ibm.com/topics/natural-language-processing}
+
+\end{thebibliography}
