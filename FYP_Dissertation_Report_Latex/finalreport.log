@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.2)  4 MAR 2024 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.2)  12 MAR 2024 01:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/alice/Documents/Final year project/FYP_Dissertation/FYP_Dissertation_template/finalreport.tex"
-(c:/Users/alice/Documents/Final year project/FYP_Dissertation/FYP_Dissertation_template/finalreport.tex
+**"c:/Users/alice/Documents/Final year project/FYP_Dissertation/FYP_Dissertation_Report_Latex/finalreport.tex"
+(c:/Users/alice/Documents/Final year project/FYP_Dissertation/FYP_Dissertation_Report_Latex/finalreport.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (surreydissertation.cls
@@ -279,7 +279,7 @@ LaTeX Info: Redefining \] on input line 2954.
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box53
-) (finalreport.aux (abstract.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux))
+) (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux))
 \openout1 = `finalreport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -382,11 +382,19 @@ l.25 \maketitle
  (abstract.tex) [3
 
 
+]
+\openout2 = `acknowledgements.aux'.
+
+ (acknowledgements.tex) [4
+
+
+
+
 ] (finalreport.toc)
 \tf@toc=\write4
 \openout4 = `finalreport.toc'.
 
- [4
+ [5
 
 
 
@@ -394,18 +402,18 @@ l.25 \maketitle
 \tf@lof=\write5
 \openout5 = `finalreport.lof'.
 
- [5
+ [6
 
 ] (finalreport.lot)
 \tf@lot=\write6
 \openout6 = `finalreport.lot'.
 
- [6
+ [7
 
 ]
 \openout2 = `abbrev.aux'.
 
- (abbrev.tex) [7
+ (abbrev.tex) [8
 
 
 ]
@@ -413,49 +421,90 @@ l.25 \maketitle
 
  (chapter1.tex
 Chapter 1.
-[8
+[9
 
 
 
 
-]) [9]
+]) [10]
 \openout2 = `chapter2.aux'.
 
  (chapter2.tex
 Chapter 2.
-) [10
+<Figures/six_emotions.png, id=137, 402.00188pt x 266.49562pt>
+File: Figures/six_emotions.png Graphic file (type png)
+<use Figures/six_emotions.png>
+Package pdftex.def Info: Figures/six_emotions.png  used on input line 12.
+(pdftex.def)             Requested size: 301.50066pt x 199.87122pt.
+[11
 
 
 
 
-] (finalreport.bbl
+ <./Figures/six_emotions.png>]
+<Figures/deep_self-distillation.png, id=146, 726.46407pt x 328.97906pt>
+File: Figures/deep_self-distillation.png Graphic file (type png)
+<use Figures/deep_self-distillation.png>
+Package pdftex.def Info: Figures/deep_self-distillation.png  used on input line 43.
+(pdftex.def)             Requested size: 363.23114pt x 164.48912pt.
+ [12]) [13 <./Figures/deep_self-distillation.png>] (finalreport.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5.
  (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)) [11
+)
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+\T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / www . techtarget . com / searchenterpriseai / definition /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+\T1/cmtt/m/n/10.95 BERT-[]language-[]model# : ~ : text = BERT % 2C % 20which % 20stands % 20for % 20Bidirectional ,[]
+ []
+
+
+Overfull \hbox (409.9629pt too wide) in paragraph at lines 22--26
+\T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / medium . com / @mehdi . iraqui / comparing-[]the-[]performance-[]of-[]llms-[]a-[]deep-[]dive-[]into-[]roberta-[]llama-[]and-[]mistral-[]for-[]disaster-[]tweets-[]8069e717548a$[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--32
+\T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / medium . com / @livajorge7 / roberta-[]vs-[]86ee82a44969# : ~ : text =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--32
+\T1/cmtt/m/n/10.95 Pretraining % 20Objectives % 3A % 20RoBERTa % 20is % 20pretrained ,[] masked % 20words %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
+\T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / www . analyticsvidhya . com / blog / 2022 / 10 /
+ []
+
+[14
 
 
 
-] (finalreport.aux (abstract.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux))
+]) [15] (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `finalreport.out' has not changed.
-(rerunfilecheck)             Checksum: 2883B1036220A5AC572F2CFE49EC2732;2185.
+(rerunfilecheck)             Checksum: CC95A7590302B68280B24BB0CEF70FAB;1717.
  ) 
 Here is how much of TeX's memory you used:
- 10617 strings out of 475248
- 166915 string characters out of 5757813
- 1926785 words of memory out of 5000000
- 31924 multiletter control sequences out of 15000+600000
- 574229 words of font info for 69 fonts, out of 8000000 for 9000
+ 10687 strings out of 475248
+ 169251 string characters out of 5757813
+ 1931785 words of memory out of 5000000
+ 31985 multiletter control sequences out of 15000+600000
+ 571325 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,11n,93p,386b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on finalreport.pdf (12 pages, 147359 bytes).
+ 90i,11n,93p,861b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
+Output written on finalreport.pdf (16 pages, 322516 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

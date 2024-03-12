@@ -12,6 +12,35 @@ Ameer, I., Bölücü, N., Siddiqui, M. H.~F., Can, B., Sidorov, G. \harvardand\
   Applications} {\bf 213},~118534.
 \newline\harvardurl{https://www.sciencedirect.com/science/article/pii/S0957417422016098}
 
+\harvarditem{Hashemi-Pour \harvardand\
+  Lutkevich}{2024}{Hashemi-Pour_Lutkevich_2024}
+Hashemi-Pour, C. \harvardand\ Lutkevich, B.  \harvardyearleft
+  2024\harvardyearright , `What is the bert language model?: Definition from
+  techtarget.com'.
+\newline\harvardurl{https://www.techtarget.com/searchenterpriseai/definition/BERT-language-model#:~:text=BERT%2C%20which%20stands%20for%20Bidirectional,calculated%20based%20upon%20their%20connection.}
+
+\harvarditem{Iraqi}{2023}{Iraqi_2023}
+Iraqi, M.  \harvardyearleft 2023\harvardyearright , `Comparing the performance
+  of llms: A deep dive into roberta, llama-2, and mistral-7b for disaster...'.
+\newline\harvardurl{https://medium.com/@mehdi.iraqui/comparing-the-performance-of-llms-a-deep-dive-into-roberta-llama-and-mistral-for-disaster-tweets-8069e717548a}
+
+\harvarditem{Jorge}{2023}{Jorge_2023}
+Jorge, L.  \harvardyearleft 2023\harvardyearright , `Roberta vs. gpt: A
+  comprehensive comparison of state-of-the-art language models, with expert
+  insights from cronj'.
+\newline\harvardurl{https://medium.com/@livajorge7/roberta-vs-86ee82a44969#:~:text=Pretraining%20Objectives%3A%20RoBERTa%20is%20pretrained,masked%20words%20in%20a%20sentence.}
+
+\harvarditem{Krugmann \harvardand\ Hartmann}{2024}{Krugmann_Hartmann_2024}
+Krugmann, J.~O. \harvardand\ Hartmann, J.  \harvardyearleft
+  2024\harvardyearright , `Sentiment analysis in the age of generative ai -
+  customer needs and solutions'.
+\newline\harvardurl{https://link.springer.com/article/10.1007/s40547-024-00143-4#Tab1}
+
+\harvarditem{Nedilko}{n.d.}{Nedilko}
+Nedilko, A.  \harvardyearleft n.d.\harvardyearright , `Generative pretrained
+  transformers for emotion detection in a code-switching setting'.
+\newline\harvardurl{https://aclanthology.org/2023.wassa-1.61/}
+
 \harvarditem[Saravia et~al.]{Saravia, Liu, Huang, Wu \harvardand\
   Chen}{2018}{saravia-etal-2018-carer}
 Saravia, E., Liu, H.-C.~T., Huang, Y.-H., Wu, J. \harvardand\ Chen, Y.-S.
@@ -20,6 +49,23 @@ Saravia, E., Liu, H.-C.~T., Huang, Y.-H., Wu, J. \harvardand\ Chen, Y.-S.
   Conference on Empirical Methods in Natural Language Processing', Association
   for Computational Linguistics, Brussels, Belgium, pp.~3687--3697.
 \newline\harvardurl{https://www.aclweb.org/anthology/D18-1404}
+
+\harvarditem{Sharma}{2022}{Sharma_2022}
+Sharma, D.  \harvardyearleft 2022\harvardyearright , `A gentle introduction to
+  roberta'.
+\newline\harvardurl{https://www.analyticsvidhya.com/blog/2022/10/a-gentle-introduction-to-roberta/}
+
+\harvarditem{Uwa}{2023}{Uwa_2023}
+Uwa  \harvardyearleft 2023\harvardyearright , `Science of emotion: The basics
+  of emotional psychology: Uwa'.
+\newline\harvardurl{https://online.uwa.edu/news/emotional-psychology/}
+
+\harvarditem[Wang et~al.]{Wang, Wei, Dong, Bao, Yang \harvardand\
+  Zhou}{2020}{Wang_Wei_Dong_Bao_Yang_Zhou_2020}
+Wang, W., Wei, F., Dong, L., Bao, H., Yang, N. \harvardand\ Zhou, M.
+  \harvardyearleft 2020\harvardyearright , `Minilm: Deep self-attention
+  distillation for task-agnostic compression of pre-trained transformers'.
+\newline\harvardurl{https://arxiv.org/abs/2002.10957}
 
 \harvarditem{{\em What is natural language processing (NLP)?}}{n.d.}{nlp}
 {\em What is natural language processing (NLP)?}  \harvardyearleft
