@@ -22,6 +22,8 @@
 \RequirePackage{harvard}
 \RequirePackage[centertags,reqno]{amsmath}
 
+\RequirePackage{listings}
+
 % Fix for harvard package use with MikTeX and LyX
 \renewcommand{\harvardurl}{URL: \url}
 

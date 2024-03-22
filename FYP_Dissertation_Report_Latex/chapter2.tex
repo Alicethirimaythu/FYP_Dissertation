@@ -2,11 +2,11 @@
 
 \chapter{Literature Review}
 
-Emotion detection has been studied alongside with the developments of Deep Learning and NLP models in recent years. 
-Numerous neural network models as well as various transformers models have been suggested to tackle this problem, including the papers that are going to be discussed in the following and the goal of this dissertation.
+Emotion detection problem has a problem that has been tackling alongside with the developments of Deep Learning and NLP models in recent years. 
+Numerous neural network models as well as various transformers models have been suggested to solve this problem, including the papers that are going to be discussed in the following as well as it is the goal of this dissertation.
 
 \section{What are basic emotions?}
-Emotions are parts of essential components of a human life. They are expressed in various ways which could be influence by their culture, relations, environment and so on. With all those various emotions, in emotional psychology splits them into two groups: basic and complex.
+Emotions are essential components of a human life. They are expressed in various ways which could be influence by their culture, relations, environments and so on. With all those various emotions, in emotional psychology, they are divided into two groups: basic and complex.
 
 \begin{figure}[ht]
     \centerline{\includegraphics[scale=0.75]{Figures/six_emotions.png}}
@@ -14,13 +14,14 @@ Emotions are parts of essential components of a human life. They are expressed i
     \label{fig:emotions}
  \end{figure}
 
-For this project, we will be focussing on basic emotions. Basic emotions are emotions that are recognized them through facial expressions and tend to happen automatically \cite{Uwa_2023}. Charles Darwin is the first to proposed that the emotions that are expressed thorough facial expression are universal. Emotional psychologist, Paul Ekman identified six basic emotion: sadness, joy, fear, anger, surprise and disgust, shown in \ref{fig:emotions}. However, the dataset that will be used will replace disgust with love to balance out the positive and negative emotions.
+For this project, we will be focussing on basic emotions. Basic emotions are emotions that are recognized them through facial expressions and tend to happen automatically \cite{Uwa_2023}. Charles Darwin is the first to proposed that the emotions that are expressed thorough facial expression are universal. Emotional psychologist, Paul Ekman identified six basic emotion: sadness, joy, fear, anger, surprise and disgust, shown in \ref{fig:emotions}. However, the dataset that will be used will replace disgust with love which balances out the positive and negative emotions.
 
 \section{BERT based models}
-BERT or Bidirectional Encoder Representations from Transformers is one of the first few transformer models both in the field of deep learning and NLP.
-Before BERT, language models could only read input text sequentially, which means either left-to-right or right-to-left at the same time \cite{Hashemi-Pour_Lutkevich_2024}.
-However, with BERT it can be done in both directions at once \cite{Hashemi-Pour_Lutkevich_2024}.
-With this model, there are many variations of BERT based models which include RoBERTa and miniLM which this project's research. 
+BERT or Bidirectional Encoder Representations from Transformers, is one of the first few variants of transformer models both in the field of deep learning and NLP.
+Before BERT, language models could only read input text sequentially, which means either left-to-right or right-to-left at a time \cite{Hashemi-Pour_Lutkevich_2024}.
+However, with BERT it can be done in both directions at once \cite{Hashemi-Pour_Lutkevich_2024} as a result, more contexts can be brought out and work better for text classification.
+
+With this model, there are many variations of BERT based models, including RoBERTa and miniLM which are in the scope of this project. 
 
 \subsection{RoBERTa}
 RoBERTa (Robustly (optimized BERT pretraining approach)) is an improved version of BERT.
@@ -35,9 +36,6 @@ The transformer models they experimented with were XLNet, DistilBERT, and RoBERT
 Their results shown that RoBERTa with multi-attention layers (RoBERTa-MA) is the best model for multi-label emotion classification with 62.4\% accuracy and f1-score being 74.2\% and the second place with just RoBERTa which had an accuracy of 61.2\% and 73.7\% for the f1-score for English dataset. 
 
 \subsection{MiniLM}
-Another variant of pretrained BERT is miniLM: Deep Self-attention distillation for task-agnostic compression of pretrained transformer \cite{Wang_Wei_Dong_Bao_Yang_Zhou_2020}.
-It compresses large pretrained transformer based models to smaller model, otherwise called deep self-attention distillation. This means that "The small model (student) is trained by deeply mimicking the self-attention module, which play a crucial role in transformer networks, of the large model (teacher)" according to the paper \cite{Wang_Wei_Dong_Bao_Yang_Zhou_2020}, the overview shown in figure[\ref{fig:distillation}]
-It also has fewer parameters than its predecessor which made it easier to fine-tune and run the model with lesser cost. 
 
 \begin{figure}[ht]
     \centerline{\includegraphics[scale=.5]{Figures/deep_self-distillation.png}}
@@ -45,19 +43,29 @@ It also has fewer parameters than its predecessor which made it easier to fine-t
     \label{fig:distillation}
  \end{figure}
 
-In this paper \cite{Wang_Wei_Dong_Bao_Yang_Zhou_2020}, they may not do the same classification or the research as this project, but they fine-tuned and experimented with different tasks such as SQuAD2, MNLI-m, SST-2 and so-on. The average of all 8 tasks with 4 runs for each task is 80.4\% accuracy which is slightly less than BERT with 81.5\%.
+Another variant of pretrained BERT is miniLM: Deep Self-attention distillation for task-agnostic compression of pretrained transformer \cite{Wang_Wei_Dong_Bao_Yang_Zhou_2020}.
+It compresses large pretrained transformer based models to smaller model, otherwise called deep self-attention distillation. This means that "The small model (student) is trained by deeply mimicking the self-attention module, which play a crucial role in transformer networks, of the large model (teacher)" according to the paper \cite{Wang_Wei_Dong_Bao_Yang_Zhou_2020}, the overview shown in figure[\ref{fig:distillation}]
+It also has fewer parameters than its predecessor which made it easier to fine-tune and run the model with lesser cost. 
 
-
-\section{Llama2}
-Llama stands for Large Language Model Meta AI which is a subset of LLMs which is introduced by Meta AI. Llama models vary in size, ranging from 7 billions parameters to 70 billions. The model is an autoregressive language model and based on the transformer decoder architecture. It is also a generative text model, which processes a sequence of words as input and iteratively predicts the next token using a sliding window \cite{Iraqi_2023}.
-
-In the research article "Sentiment Analysis in the Age of Generative AI" \cite{Krugmann_Hartmann_2024}, they did 3 experiments with different classifications. The first experiment is more related to this project which is binary and three-class sentiment classification. They did the zero-shot for llama2 and GPT models using different datasets. They also compared the results with models like BERT and RoBERTa which are fine-tuned. The average accuracies of llama2, GPT-4, BERT and RoBERTa for all 16 datasets are as follows 90.9\%, 93.1\%, 90.5\% and 92.0\% respectively. The best model being GPT-4 however it is not open-source. Nevertheless, for zero-shot testing, Llama 2 did better than expected.
+In this paper \cite{Wang_Wei_Dong_Bao_Yang_Zhou_2020}, they may not do the same classification or the research as this project, but they fine-tuned and experimented with GLUE (General Language Understanding Evaluation) benchmark which consists of 9 sentence level classification tasks such as SQuAD2, MNLI-m, SST-2 and so-on. The average of all 8 tasks with 4 runs for each task is 80.4\% accuracy which is slightly less than BERT with 81.5\%. Nonetheless, it works better than expected for a small model.
 
 \section{GPT}
  GPT (Generative pretrained transformer) is a series of language models that is developed by OpenAI \cite{Jorge_2023}. GPT have 4 different versions: GPT, GPT-2, GPT-3.5 and GPT4. The latest two versions may not open-sourced however the public could still use GPT-1 and 2 to experiment or compare with the newly developments of LLMs. GPT shines mainly in text generation which produces coherent and contextually relevant sentences \cite{Jorge_2023}.
  
  For the related research for this model, "Generative Pretrained Transformers for Emotion Detection in a Code-Switching Setting" \cite{Nedilko}, they used GPT models with the zero-shot or few-shot approaches to detect the human emotions. As they could not access GPT-4, they used ChatGPT for this experiment with few-shot-method and got 73.13\% for the accuracy and 70.38\% for the macro-f1. If there is access for GPT-4 as shown in the previous paper above, the result of this experiment will be greater.
+
+ \section{Llama2}
+Llama stands for Large Language Model Meta AI which is a subset of LLMs which is introduced by Meta AI. Llama models vary in size, ranging from 7 billions parameters to 70 billions. The model is an autoregressive language model and based on the transformer decoder architecture. It is also a generative text model, which processes a sequence of words as input and iteratively predicts the next token using a sliding window \cite{Iraqi_2023}.
+
+In the research article "Sentiment Analysis in the Age of Generative AI" \cite{Krugmann_Hartmann_2024}, they did 3 experiments with different classifications. The first experiment is more related to this project which is binary and three-class sentiment classification. They did the zero-shot for llama2 and GPT models using different datasets. They also compared the results with models like BERT and RoBERTa which are fine-tuned. The average accuracies of llama2, GPT-4, BERT and RoBERTa for all 16 datasets are as follows 90.9\%, 93.1\%, 90.5\% and 92.0\% respectively. The best model being GPT-4 however it is not open-source. Nevertheless, for zero-shot testing, Llama 2 did better than expected.
+
+On the other hand, for the paper "DialogueLLM: Context and Emotion Knowledge-Tuned Large Language Models for Emotion Recognition in Conversations" \cite{zhang2024dialoguellm}, as the title suggested, it is about classifying emotion from dialogues. The datasets they used have instruction, video description, context and input like Figure[\ref{fig:DialogueLLM}] and the output will be single emotion. They used other models such as MTL, Llama2 to compare with their model DialogueLLM. The result they got for llama2 is significantly lower than the article above, average accuracy being 25.31\% and f1-score being 21.91\%. In which their best model being DialogueLLM with 61.4\% and 60.52\% respectively. This suggested that Llama2 is not suitable for extracting emotion from the dialogue based input. 
+\begin{figure}[!htb]
+    \centerline{\includegraphics[scale=.68]{Figures/dialogueLLM.png}}
+    \caption{Overview of DialogueLLM fine-tuning and classification pipeline from the paper mentioned above}
+    \label{fig:DialogueLLM}
+ \end{figure}
  
  \section{Overall}
 
- Above models discussed will be implemented for the purpose of this project. The dataset used for all these models will not be changed. As this project main aim is to find the best model for emotion classification, the results that are gotten from the project will be compared and analysed as well as their implementation and limitation will be explained in the following chapter.
+ Above models discussed will be implemented for the purpose of this project. The dataset used for all these models will not be changed. As this project main aim is to find the best model for emotion classification, the results from the implementation will be compared and analysed as well as their methodologies and limitations will be explained in the following chapter.

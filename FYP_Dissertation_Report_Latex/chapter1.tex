@@ -6,49 +6,41 @@
 
 \section{Chapter Overview}
 
-This chapter will mainly focus on the introduction of the project. It will discuss the background of this project,
-its aims and objectives as well as its overview and its limitations that will later face.
+This chapter will mainly focus on the introduction of the project. It will discuss its background, its aims and objectives as well as its overview, and limitations that the technologies that are work with might have.
 
 \section{Project Background}
 
 "What is emotion?" According to the Oxford English Dictionary, it means a strong feeling deriving from one's circumstances, mood, or relationships with others \cite{oed:akrasia}.
 One's emotion can be portrayed through facial expressions, speaking and writing. 
-Nowadays with the ever rising popularity of social media such as TikTok and X (previously named Twitter) provide
-a way to post their opinions, mood and emotions online.
-In which they could also express contempt towards another.
-Therefore, the task of identifying the emotion that the other party's feeling toward the contempt-filled post
-or both parties are necessary as emotion is a fundamental part of human life, influencing both physical and mental health \cite{AMEER2023118534}.
-Emotion classification is a context-based device therefore with visual and vocal along with text, 
-will be easier to identify.
+Nowadays with the ever rising popularity of social media such as TikTok and X (previously named Twitter) provide a way to post their opinions, mood and emotions online, which in turn, could also express with contempts towards one another.
+Therefore, the task of identifying the emotions that the other party's feeling toward the contempt-filled post or both parties are necessary as emotions are a fundamental part of human life, influencing both physical and mental health \cite{AMEER2023118534}.
+Emotion classification is a context-based device so with visual and vocal inputs along with text, will be easier to classify.
 However, in a world without other two inputs (facial expressions and tone of voice), 
-it is harder for the classification to accurately output the correct emotion
+it is harder for the detection device to accurately output the correct emotion
 of the person behind the text, even for humans.
 
 Sentiment Analysis is used to classify the overall sentiment of the text in terms of positive, negative and neutral, 
-and is one of the fields in NLP which is a machine learning algorithms with statistical computation of human Language (computational linguistics)
-to generate text and speech \cite{nlp}. 
-Sentiment Analysis is utilised in many companies in their marketing and services online to see the trend and mood of their consumers as well as potential consumers, and it is proven to be very useful.
-Nevertheless, emotion classification goes deeper and aims to identify underlying emotion in a given sentence.
-This is a problem for single-label classification as the given statement could have different dimension but single out to one output.
+and is one of the fields in NLP which is a machine learning algorithms with statistical computation of human Language (computational linguistics) to generate text and speech \cite{nlp}. 
+Sentiment Analysis is utilized in many companies in their marketing and services online to see the trend and mood of their consumers as well as potential consumers, and it is proven to be very useful.
+Nevertheless, emotion classification goes deeper and aims to identify underlying emotion/(s) in a given sentence.
+This is a problem for multi-label classification as the given statement could have different dimensions and an instance could have subset of emotions or other labels \cite{AMEER2023118534}. Nevertheless, this project is working with single-label classification which means that it might not face this problem however, the accuracy that emotion that is output might not fully consider the underlying semantics.
 For example, a given statement could have more than one emotion, but it is reduced down to single emotion.
-These emotions include six basic emotions such as sadness, joy, love, anger, surprise and fear, and many more.
-For this project, The dataset \cite{saravia-etal-2018-carer} found is labelled only with six basic emotions mentioned previously.
-In which could give a broader sense of emotion as it classifies only one emotion.
+The basic emotions include six basic emotions such as sadness, joy, love, anger, surprise and fear, and many more.
+For this project, The dataset \cite{Pandey_2021} found is labelled only with six basic emotions mentioned previously.
 
 \section{Project Overview}
 
-This project is to attempt to compare different pre-trained models of transformers to find which of them are the best model for classifying the emotion of the English twitter (now called 'X') messages within the bounds of six basic emotions.
+This project is to attempt to compare different pre-trained models of transformers to find which of them are the best model for classifying the emotion of the English twitter (now called 'X') messages within the bounds of six basic emotions \cite{Pandey_2021}.
 This project will begin with the literature reviews about the research papers similar to this project and different pre-trained transformer models that will be compared and implemented into this project. 
 The general theory behind transformer architecture and how different the models that are implemented from their former architecture and with each other will be discussed.
 This project will then break down the problems for each of the models and their technical parts of the implementation. 
-After that, the results will be presented at the end. Furthermore, The gathered results will be analysed and compared to find the best single-label emotion classification models on the applicable dataset.
+Finally, the results will be presented at the end. The gathered results will be analysed and compared to find the best single-label emotion classification models on the applicable dataset.
 
 \section{Project Aims \& Objectives}
-The overall aims of the project is to compare and demonstrate relatively newer transformer models that will be implemented in this project
-will be better at detecting emotion in the given piece of text. The followings below are the list of objectives for this project:
+The overall aims of the project is to compare and demonstrate relatively newer transformer models that will be implemented in this project will be better at detecting emotion in the given piece of text. The following list below is the list of objectives for this project:
 
 \begin{itemize}
-    \item Explore different pre-trained transformers models that are relatively new in the fields of NLP.
+    \item Explore different pre-trained transformers models that are both relatively new and old in the fields of NLP.
     \item Review the relevant or similar literatures for emotion classification and the usage of different transformer models.
     \item Discover suitable dataset for training and testing.
     \item Implement the two or more pre-trained models and use the dataset collected to train and test the models implemented.
@@ -58,7 +50,7 @@ will be better at detecting emotion in the given piece of text. The followings b
 \section{Limitations}
 
 For the resources to carry out this project, Google Colab and Vscode will be two primary platforms for coding, training and testing.
-Google Colab have limited GPU runtime which hindered the progress of the implementation therefore local gpu is used to progress further.
-However, some models like Large Language Models (LLMs) and large datasets will use more GPU power as well as CPU and amout of RAM given which slow down the training process.
+Google Colab have limited GPU runtime which hindered the progress of the implementation therefore local GPU is used to progress further.
+However, some models like Large Language Models (LLMs) and large datasets will use more GPU power as well as CPU and amount of RAM given which also slow down the training process.
 
 Furthermore, this project and dataset unfortunately do not account for or identify sarcasm which could result in wrong emotion for the sarcastic statements.

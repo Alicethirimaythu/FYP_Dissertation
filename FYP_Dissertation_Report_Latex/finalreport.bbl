@@ -41,6 +41,11 @@ Nedilko, A.  \harvardyearleft n.d.\harvardyearright , `Generative pretrained
   transformers for emotion detection in a code-switching setting'.
 \newline\harvardurl{https://aclanthology.org/2023.wassa-1.61/}
 
+\harvarditem{Pandey}{2021}{Pandey_2021}
+Pandey, P.  \harvardyearleft 2021\harvardyearright , `Emotion dataset for
+  emotion recognition tasks'.
+\newline\harvardurl{https://www.kaggle.com/datasets/parulpandey/emotion-dataset/data}
+
 \harvarditem[Saravia et~al.]{Saravia, Liu, Huang, Wu \harvardand\
   Chen}{2018}{saravia-etal-2018-carer}
 Saravia, E., Liu, H.-C.~T., Huang, Y.-H., Wu, J. \harvardand\ Chen, Y.-S.
@@ -71,5 +76,12 @@ Wang, W., Wei, F., Dong, L., Bao, H., Yang, N. \harvardand\ Zhou, M.
 {\em What is natural language processing (NLP)?}  \harvardyearleft
   n.d.\harvardyearright .
 \newline\harvardurl{https://www.ibm.com/topics/natural-language-processing}
+
+\harvarditem[Zhang et~al.]{Zhang, Wang, Wu, Tiwari, Li, Wang \harvardand\
+  Qin}{2024}{zhang2024dialoguellm}
+Zhang, Y., Wang, M., Wu, Y., Tiwari, P., Li, Q., Wang, B. \harvardand\ Qin, J.
+  \harvardyearleft 2024\harvardyearright , `Dialoguellm: Context and emotion
+  knowledge-tuned large language models for emotion recognition in
+  conversations'.
 
 \end{thebibliography}

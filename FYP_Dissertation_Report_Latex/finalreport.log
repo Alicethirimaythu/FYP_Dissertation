@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.2)  12 MAR 2024 01:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.2)  17 MAR 2024 22:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -275,11 +275,33 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)) (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count291
+\lst@gtempboxa=\box53
+\lst@token=\toks26
+\lst@length=\count292
+\lst@currlwidth=\dimen166
+\lst@column=\count293
+\lst@pos=\count294
+\lst@lostspace=\dimen167
+\lst@width=\dimen168
+\lst@newlines=\count295
+\lst@lineno=\count296
+\lst@maxwidth=\dimen169
+ (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count297
+\lst@skipnumbers=\count298
+\lst@framebox=\box54
+) (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+) (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count291
-\l__pdf_internal_box=\box53
-) (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux))
+\l__color_backend_stack_int=\count299
+\l__pdf_internal_box=\box55
+) (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux))
 \openout1 = `finalreport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -337,26 +359,20 @@ LaTeX Font Info:    ... okay on input line 24.
 
 (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
-\scratchdimen=\dimen166
-\scratchbox=\box54
-\nofMPsegments=\count293
-\nofMParguments=\count294
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count295
-\MPscratchDim=\dimen167
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count300
+\scratchdimen=\dimen170
+\scratchbox=\box56
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen171
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks28
 ) (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -365,6 +381,7 @@ Package hyperref Info: Link coloring OFF on input line 24.
 \@outlinefile=\write3
 \openout3 = `finalreport.out'.
 
+\c@lstlisting=\count306
 
 ..............................................................
 You are using the surrey dissertation style (Johann A. Briffa)
@@ -390,23 +407,17 @@ l.25 \maketitle
 
 
 
-] (finalreport.toc)
+] (finalreport.toc [5
+
+
+
+])
 \tf@toc=\write4
 \openout4 = `finalreport.toc'.
 
- [5
-
-
-
-] (finalreport.lof)
+ [6] (finalreport.lof)
 \tf@lof=\write5
 \openout5 = `finalreport.lof'.
-
- [6
-
-] (finalreport.lot)
-\tf@lot=\write6
-\openout6 = `finalreport.lot'.
 
  [7
 
@@ -431,7 +442,7 @@ Chapter 1.
 
  (chapter2.tex
 Chapter 2.
-<Figures/six_emotions.png, id=137, 402.00188pt x 266.49562pt>
+<Figures/six_emotions.png, id=176, 402.00188pt x 266.49562pt>
 File: Figures/six_emotions.png Graphic file (type png)
 <use Figures/six_emotions.png>
 Package pdftex.def Info: Figures/six_emotions.png  used on input line 12.
@@ -442,12 +453,33 @@ Package pdftex.def Info: Figures/six_emotions.png  used on input line 12.
 
 
  <./Figures/six_emotions.png>]
-<Figures/deep_self-distillation.png, id=146, 726.46407pt x 328.97906pt>
+<Figures/deep_self-distillation.png, id=184, 726.46407pt x 328.97906pt>
 File: Figures/deep_self-distillation.png Graphic file (type png)
 <use Figures/deep_self-distillation.png>
-Package pdftex.def Info: Figures/deep_self-distillation.png  used on input line 43.
+Package pdftex.def Info: Figures/deep_self-distillation.png  used on input line 41.
 (pdftex.def)             Requested size: 363.23114pt x 164.48912pt.
- [12]) [13 <./Figures/deep_self-distillation.png>] (finalreport.bbl
+ [12 <./Figures/deep_self-distillation.png>]
+<Figures/dialogueLLM.png, id=194, 687.31781pt x 319.94531pt>
+File: Figures/dialogueLLM.png Graphic file (type png)
+<use Figures/dialogueLLM.png>
+Package pdftex.def Info: Figures/dialogueLLM.png  used on input line 64.
+(pdftex.def)             Requested size: 467.36993pt x 217.55992pt.
+ [13]) [14 <./Figures/dialogueLLM.png>]
+\openout2 = `chapter3.aux'.
+
+ (chapter3.tex
+Chapter 3.
+<Figures/dataset_distribution.png, id=204, 462.528pt x 346.896pt>
+File: Figures/dataset_distribution.png Graphic file (type png)
+<use Figures/dataset_distribution.png>
+Package pdftex.def Info: Figures/dataset_distribution.png  used on input line 16.
+(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+[15
+
+
+
+
+ <./Figures/dataset_distribution.png>]) [16] (finalreport.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5.
  (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
@@ -477,34 +509,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--32
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / www . analyticsvidhya . com / blog / 2022 / 10 /
  []
 
-[14
+[17
 
 
 
-]) [15] (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux))
+]) [18] (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `finalreport.out' has not changed.
-(rerunfilecheck)             Checksum: CC95A7590302B68280B24BB0CEF70FAB;1717.
+(rerunfilecheck)             Checksum: 1458B18270EC76E66A50EBB5B5E57A04;2392.
  ) 
 Here is how much of TeX's memory you used:
- 10687 strings out of 475248
- 169251 string characters out of 5757813
+ 12060 strings out of 475248
+ 189488 string characters out of 5757813
  1931785 words of memory out of 5000000
- 31985 multiletter control sequences out of 15000+600000
+ 33338 multiletter control sequences out of 15000+600000
  571325 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,11n,93p,861b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,11n,93p,957b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on finalreport.pdf (16 pages, 322516 bytes).
+Output written on finalreport.pdf (19 pages, 511231 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
