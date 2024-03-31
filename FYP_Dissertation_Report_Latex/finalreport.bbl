@@ -46,6 +46,11 @@ Pandey, P.  \harvardyearleft 2021\harvardyearright , `Emotion dataset for
   emotion recognition tasks'.
 \newline\harvardurl{https://www.kaggle.com/datasets/parulpandey/emotion-dataset/data}
 
+\harvarditem{patrickvonplaten}{n.d.}{patrickvonplaten}
+patrickvonplaten  \harvardyearleft n.d.\harvardyearright ,
+  `Microsoft/minilm-l12-h384-uncased · hugging face'.
+\newline\harvardurl{https://huggingface.co/microsoft/MiniLM-L12-H384-uncased}
+
 \harvarditem[Saravia et~al.]{Saravia, Liu, Huang, Wu \harvardand\
   Chen}{2018}{saravia-etal-2018-carer}
 Saravia, E., Liu, H.-C.~T., Huang, Y.-H., Wu, J. \harvardand\ Chen, Y.-S.

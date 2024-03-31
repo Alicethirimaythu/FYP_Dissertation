@@ -5,3 +5,4 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Overview of DialogueLLM fine-tuning and classification pipeline from the paper mentioned above}}{14}{figure.2.3}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces The graph for the distribution of each label in Train dataset}}{15}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A pipeline of the overall flow of implementation}}{16}{figure.3.2}%
