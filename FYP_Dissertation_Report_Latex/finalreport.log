@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.2)  30 MAR 2024 19:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.2)  16 APR 2024 18:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -297,7 +297,23 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-) (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)) (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
 \l__pdf_internal_box=\box55
@@ -442,54 +458,68 @@ Chapter 1.
 
  (chapter2.tex
 Chapter 2.
-<Figures/six_emotions.png, id=188, 402.00188pt x 266.49562pt>
+<Figures/six_emotions.png, id=207, 402.00188pt x 266.49562pt>
 File: Figures/six_emotions.png Graphic file (type png)
 <use Figures/six_emotions.png>
 Package pdftex.def Info: Figures/six_emotions.png  used on input line 12.
-(pdftex.def)             Requested size: 301.50066pt x 199.87122pt.
+(pdftex.def)             Requested size: 289.44112pt x 191.8767pt.
+<Figures/rnn-transf-nlp.jpg, id=210, 2007.5pt x 770.88pt>
+File: Figures/rnn-transf-nlp.jpg Graphic file (type jpg)
+<use Figures/rnn-transf-nlp.jpg>
+Package pdftex.def Info: Figures/rnn-transf-nlp.jpg  used on input line 23.
+(pdftex.def)             Requested size: 341.2705pt x 131.04787pt.
 [11
 
 
 
 
  <./Figures/six_emotions.png>]
-<Figures/deep_self-distillation.png, id=196, 726.46407pt x 328.97906pt>
+<Figures/encoder-decoder.jpg, id=217, 1684.2925pt x 2437.105pt>
+File: Figures/encoder-decoder.jpg Graphic file (type jpg)
+<use Figures/encoder-decoder.jpg>
+Package pdftex.def Info: Figures/encoder-decoder.jpg  used on input line 31.
+(pdftex.def)             Requested size: 185.27275pt x 268.08238pt.
+ [12 <./Figures/rnn-transf-nlp.jpg> <./Figures/encoder-decoder.jpg>]
+<Figures/deep_self-distillation.png, id=224, 726.46407pt x 328.97906pt>
 File: Figures/deep_self-distillation.png Graphic file (type png)
 <use Figures/deep_self-distillation.png>
-Package pdftex.def Info: Figures/deep_self-distillation.png  used on input line 41.
+Package pdftex.def Info: Figures/deep_self-distillation.png  used on input line 60.
 (pdftex.def)             Requested size: 363.23114pt x 164.48912pt.
- [12 <./Figures/deep_self-distillation.png>]
-<Figures/dialogueLLM.png, id=206, 687.31781pt x 319.94531pt>
+ [13]
+<Figures/dialogueLLM.png, id=232, 687.31781pt x 319.94531pt>
 File: Figures/dialogueLLM.png Graphic file (type png)
 <use Figures/dialogueLLM.png>
-Package pdftex.def Info: Figures/dialogueLLM.png  used on input line 64.
+Package pdftex.def Info: Figures/dialogueLLM.png  used on input line 83.
 (pdftex.def)             Requested size: 467.36993pt x 217.55992pt.
- [13]) [14 <./Figures/dialogueLLM.png>]
+ [14 <./Figures/deep_self-distillation.png>]) [15 <./Figures/dialogueLLM.png>]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
 Chapter 3.
-<Figures/dataset_distribution.png, id=216, 462.528pt x 346.896pt>
+<Figures/dataset_distribution.png, id=243, 462.528pt x 346.896pt>
 File: Figures/dataset_distribution.png Graphic file (type png)
 <use Figures/dataset_distribution.png>
-Package pdftex.def Info: Figures/dataset_distribution.png  used on input line 16.
+Package pdftex.def Info: Figures/dataset_distribution.png  used on input line 17.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-[15
+[16
 
 
 
 
  <./Figures/dataset_distribution.png>]
-<Figures/problem_pipeline.png, id=223, 932.73468pt x 353.06906pt>
+<Figures/problem_pipeline.png, id=250, 932.73468pt x 353.06906pt>
 File: Figures/problem_pipeline.png Graphic file (type png)
 <use Figures/problem_pipeline.png>
-Package pdftex.def Info: Figures/problem_pipeline.png  used on input line 28.
+Package pdftex.def Info: Figures/problem_pipeline.png  used on input line 29.
 (pdftex.def)             Requested size: 419.72673pt x 158.87961pt.
- [16 <./Figures/problem_pipeline.png>]) [17] (finalreport.bbl
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5.
+ [17 <./Figures/problem_pipeline.png>] (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 61.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 61.
  (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
+)) [18] [19] (finalreport.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 16--21
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / www . techtarget . com / searchenterpriseai / definition /
  []
@@ -519,30 +549,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--67
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / www . analyticsvidhya . com / blog / 2022 / 10 /
  []
 
-[18
+[20
 
 
 
-]) [19] (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux))
+]) [21] (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `finalreport.out' has not changed.
-(rerunfilecheck)             Checksum: D8A46F56CE4CA119CC4CE09638D75A42;2617.
+(rerunfilecheck)             Checksum: 4330711FAFF6FBA38A838C9C2DEED780;3052.
  ) 
 Here is how much of TeX's memory you used:
- 12079 strings out of 475248
- 189934 string characters out of 5757813
- 1930785 words of memory out of 5000000
- 33353 multiletter control sequences out of 15000+600000
- 571325 words of font info for 62 fonts, out of 8000000 for 9000
+ 13022 strings out of 475248
+ 201014 string characters out of 5757813
+ 1957785 words of memory out of 5000000
+ 34272 multiletter control sequences out of 15000+600000
+ 573169 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,11n,93p,957b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on finalreport.pdf (20 pages, 538641 bytes).
+ 90i,11n,93p,960b,1344s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
+Output written on finalreport.pdf (22 pages, 1082245 bytes).
 PDF statistics:
- 697 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 783 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

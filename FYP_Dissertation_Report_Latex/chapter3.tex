@@ -12,7 +12,8 @@ The dataset that is used to train and test is from \textit{"Emotion Dataset for 
 \emph{"label": 0,}
 
 \textit{"text": "im feeling quite sad and sorry for myself but ill snap out of it soon" }
-\begin{figure}[ht]
+
+\begin{figure}[h!]
     \centerline{\includegraphics[scale=0.5]{Figures/dataset_distribution.png}}
     \caption{The graph for the distribution of each label in Train dataset}
     \label{fig:dataset}
@@ -32,11 +33,11 @@ This section will dive deeper into each pre-trained model, and how it is impleme
 
 The Figure[\ref{fig:pipeline}] shows the overall implementation of each model. The code for all the model will be followed roughly as the figure portrays and will be sectioned as such: Import libraries, Dataset, Model, Training and Testing/Evaluation. The implemented models will be run as Notebooks on either Google Colab or locally (in Vscode) depending on how big the model is.
 
-The main benefit of using notebooks for the implementation is ability to break sections of code into blocks of code or 'cells' to make it easier to see and follow through. It also makes sectioned code easier to test and check for errors. For example, if the variables or code need to be checked to ensure their functionalities, or to check the features of datasets, cells can be added to verify and deleted after. Another benefit is that the cells can be 'markdown cells' which allow the code to section up with titles and paragraphs overviewing each section, allowing anyone to understand the code quicker.
+The main benefit of using notebooks for the implementation is ability to break sections of code into blocks of code or 'cells' to make it easier to see and follow through. It also makes sectioned code easier to test and check for errors. For example, if the variables or code need to be checked to ensure their functionalities, or to check the features of datasets, cells can be added to verify and deleted after. Another benefit is that the cells can be 'markdown cells' which makes sectioning the code easier, can write titles and paragraphs overviewing each section, allowing anyone to understand the implementation quicker.
 
 The pretrained models that I used for the implementation are all from huggingface. Huggingface is a substantial platform for an AI community. It's also accommodating for any new keen learner with their work through videos and documents. It also provides many tools such as different models, datasets, accessibilities to any Ai applications made by the community, documents for specific libraries and methods, solutions and finally an ability to communicate or ask about any Ai related queries with other members in the community.
 
-\subsection{Main libraries}
+\section{Main libraries}
 The following are the libraries used throughout all the models that are implemented, and the brief descriptions of their use and what they provide:
 
 \textbf{Torch:} an essential python library which allows machine learning algorithms to run faster than if they were written in normal python. It also supports 'Cuda' to run models on the GPU.
@@ -49,9 +50,29 @@ The following are the libraries used throughout all the models that are implemen
 
 \textbf{TQDM:} displays progress of the model training and testing.
 
+\textbf{Numpy:} a python library that supports and operates on large multidimensional arrays and matrices along with variety of mathematical functions.
+
+\section{Loading datasets}
+
+By using \textbf{"Datasets"} library, \textit{load\_dataset, ClassLabel and Features} are imported. To load all the dataset from the folder, \emph{Load\_dataset} is used. However, without the \emph{ClassLabel}, the labels are all as numbers and there are no emotion relations or emotion contexts for the model to relate back. Therefore, the function to put \emph{ClassLabel} for every dataset is created. The result of the function is shown as a figure below.
+\bigskip
+
+\lstset{style=mystyle}
+\begin{lstlisting}[language=Python, caption=Features of the dataset]
+{'text': Value(dtype='string', id=None), 'label': ClassLabel(names=['sadness', 'joy', 'love', 'anger', 'fear', 'surprise'], id=None)}
+\end{lstlisting}
+
+
+\section{Pre-trained Models}
+
+A pre-trained model is an ML model that has undergone training on a vast dataset and is adjustable for a particular downstream task. These models are frequently employed as an initial foundation for developing ML models, providing a starting set of weights and biases that can be fine-tuned for a particular task.
+
+As more resources and time are needed for the full-training from scratch, this research opted to fine-tune pre-trained transformer models for a specific downstream task like emotion classification. The following will discuss the implementation of each pre-trained models that the project used.
 
 \subsection{MiniLM}
 The English pre-trained model checkpoint that is loaded from huggingface is \textit{'microsoft/MiniLM-L12-H384-uncased'}. It is the uncased 12-layer model with 384 hidden size distilled from an in-house pre-trained UniLM v2 model (it is not available for public) in BERT-base, 33 million parameters, and it is 2.7 times faster than BERT-Base \cite{patrickvonplaten}.
+
+The dataset is tokenized 
 
 
 \subsection{Llama2}
