@@ -13,48 +13,56 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter2.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: chapter3.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter4.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter5.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter6.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: chapter7.aux
 Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: agsm.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-You've used 16 entries,
+You've used 27 entries,
             2909 wiz_defined-function locations,
-            751 strings with 8651 characters,
-and the built_in function-call counts, 66288 in all, are:
-= -- 10799
-> -- 969
+            814 strings with 10540 characters,
+and the built_in function-call counts, 86854 in all, are:
+= -- 13901
+> -- 1257
 < -- 0
-+ -- 5222
-- -- 301
-* -- 5748
-:= -- 13249
-add.period$ -- 16
-call.type$ -- 16
-change.case$ -- 212
-chr.to.int$ -- 16
-cite$ -- 16
-duplicate$ -- 201
-empty$ -- 444
-format.name$ -- 342
-if$ -- 11909
-int.to.chr$ -- 5
++ -- 6570
+- -- 385
+* -- 7269
+:= -- 17906
+add.period$ -- 27
+call.type$ -- 27
+change.case$ -- 372
+chr.to.int$ -- 23
+cite$ -- 27
+duplicate$ -- 320
+empty$ -- 732
+format.name$ -- 450
+if$ -- 15482
+int.to.chr$ -- 9
 int.to.str$ -- 0
 missing$ -- 2
-newline$ -- 66
-num.names$ -- 145
-pop$ -- 127
+newline$ -- 110
+num.names$ -- 265
+pop$ -- 216
 preamble$ -- 1
-purify$ -- 230
+purify$ -- 400
 quote$ -- 0
-skip$ -- 190
+skip$ -- 311
 stack$ -- 0
-substring$ -- 15242
-swap$ -- 40
-text.length$ -- 204
+substring$ -- 19373
+swap$ -- 50
+text.length$ -- 368
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 64
+type$ -- 108
 warning$ -- 0
-while$ -- 306
+while$ -- 554
 width$ -- 0
-write$ -- 206
+write$ -- 339

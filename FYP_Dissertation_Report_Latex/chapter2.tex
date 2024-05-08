@@ -14,9 +14,15 @@ Emotions are essential components of a human life. They are expressed in various
     \label{fig:emotions}
  \end{figure}
 
-For this project, we will be focussing on basic emotions. Basic emotions are emotions that are recognized them through facial expressions and tend to happen automatically \cite{Uwa_2023}. Charles Darwin is the first to proposed that the emotions that are expressed thorough facial expression are universal. Emotional psychologist, Paul Ekman identified six basic emotion: sadness, joy, fear, anger, surprise and disgust, shown in \ref{fig:emotions}. However, the dataset that will be used will replace disgust with love which balances out the positive and negative emotions.
+For this project, we will be focussing on basic emotions. Basic emotions are emotions that are recognised them through facial expressions and tend to happen automatically \cite{Uwa_2023}. Charles Darwin is the first to proposed that the emotions that are expressed thorough facial expression are universal. Emotional psychologist, Paul Ekman identified six basic emotion: sadness, joy, fear, anger, surprise and disgust, shown in \ref{fig:emotions}. However, the dataset that will be used will replace disgust with love which equalises the positive and negative emotions.
 
-% talk about transformer a bit and why it is revolutionary
+\section{Why Emotion Classification?}
+Research into classifying emotions across various mediums has been ongoing and evolving alongside the rapid development of new Deep Learning and NLP models. Thus, many have been polishing text emotion classification with different models such as neural networks and transformer models. However, accurately detecting emotions from text is still a goal that many are trying to reach.
+
+The application of emotion classification, especially in medical field, could help greatly for therapist. For example, detecting a person's emotion while therapy or consultation through a chat will be a great assist for any therapist and consultant. Its application can venture into customer services as well as education (feedback for modules and lecturers)\cite{Amrullah_2023}. Other uses may include enhancement of machine translation as understanding the emotions behind the text could provide more related translation in another languages which often a struggle\cite{Amrullah_2023}. Finally, emotion based content in social media and other online platforms\cite{Amrullah_2023}. 
+
+There are many other uses for emotion classification models and this project is to find the best suited transformer model for this task.
+
 \section{Transformers}
 
 \begin{figure}[ht]
@@ -48,7 +54,7 @@ It modifies key hyperparameters, removing the next-sentence pretraining objectiv
 It trained in much larger datasets than BERT which is under-trained. 
 Furthermore, it was trained with dynamic masking, large mini-batches, larger byte-level BPE (Byte-Pair Encoding), and full-sentences without NSP (Next Sentence Prediction) loss \cite{Sharma_2022}.
 
-The study, "Multi-label emotion classification in texts using transfer learning" \cite{AMEER2023118534}, is about utilizing different self-attention mechanisms and then-popular, transformer models to solve the multi-label emotion classification problem.
+The study, "Multi-label emotion classification in texts using transfer learning" \cite{AMEER2023118534}, is about utilising different self-attention mechanisms and then-popular, transformer models to solve the multi-label emotion classification problem.
 However, because of the lack of multi-label emotion datasets, this project will be using single-label dataset.
 They used two different datasets with a different set of emotion labels as well as 2 different languages, one of which being in English and the other in Chinese.
 The transformer models they experimented with were XLNet, DistilBERT, and RoBERTa as well as multi-attention layers of each model.

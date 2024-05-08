@@ -26,3 +26,11 @@ ClassLabel
 loaddataset
 Loaddataset
 mystyle
+LLama
+FacebookAI
+QLoRA
+BitsandBytes
+PEFT
+SFTTrainer
+LoRA
+logits

@@ -27,12 +27,7 @@ keywords = {Multi-label emotion classification, Bi-LSTM, Transformer Networks, A
 abstract = {Social media is a widespread platform that provides a massive amount of user-generated content that can be mined to reveal the emotions of social media users. This has many potential benefits, such as getting a sense of people’s pulse on various events or news. Emotion classification from social media posts is challenging, especially when it comes to detecting multiple emotions from a short piece of text, as in multi-label classification problem. Most of the previous work on emotion detection has focused on deep neural networks such as Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) such as Long Short-Term Memory (LSTM) Networks. However, none of them has utilized multiple attention mechanisms and Recurrent Neural Networks (i.e., specialized attention networks for each emotion) nor utilized the recently introduced Transformer Networks such as XLNet, DistilBERT, and RoBERTa for the task of classifying emotions with multiple labels. The proposed multiple attention mechanism reveals the contribution of each word on each emotion, which has not been investigated before. In this study, we investigate both the use of LSTMs and the fine-tuning of Transformer Networks through Transfer Learning along with a single-attention network and a multiple-attention network for multi-label emotion classification. The experimental results show that our novel transfer learning models using pre-trained transformers with and without multiple attention mechanisms were able to outperform the current state-of-the-art accuracy (58.8% - Baziotis et al., 2018) in the SemEval-2018 Task-1C dataset. Our best-performing RoBERTa-MA (RoBERTa-Multi-attention) model outperformed the state-of-the-art and achieved 62.4% accuracy (3.6% gain over the state-of-the-art) on the challenging SemEval-2018 E-c: Detecting Emotions (multi-label classification) dataset for English. Moreover, the XLNet-MA (XLNet-Multi-attention) model outperformed the other proposed models by achieving 45.6% accuracy on the Ren-CECps dataset for Chinese.}
 }
 
-@MISC{nlp,
-  title     = {What is natural language processing (NLP)?},
-  publisher = {IBM},
-  url       = {https://www.ibm.com/topics/natural-language-processing},
-  urldate   = {2023-03-03}
-}
+@misc{IBM_2024, title={What is natural language processing?}, url={https://www.ibm.com/topics/natural-language-processing}, journal={IBM}, author={IBM}, year={2024}, month={Mar}} 
 
 @misc{Liu_Shi_Zhou_Liu_Yin_Yin_Zheng_2023, 
 title={Emotion classification for short texts: An improved multi-label method}, 
@@ -106,7 +101,7 @@ month={Apr}}
 
 @misc{Pandey_2021, title={Emotion dataset for emotion recognition tasks}, url={https://www.kaggle.com/datasets/parulpandey/emotion-dataset/data}, journal={Kaggle}, author={Pandey, Parul}, year={2021}, month={Sep}} 
 
-@misc{Hugging_Face, url={https://huggingface.co/}, journal={Hugging Face –}} 
+@misc{Hugging_Face, title={Huggingface Homepage}, url={https://huggingface.co/}, journal={Hugging Face –}, author={HuggingFace}} 
 
 @misc{patrickvonplaten, title={Microsoft/MiniLM-L12-H384-uncased · hugging face}, url={https://huggingface.co/microsoft/MiniLM-L12-H384-uncased}, journal={microsoft/MiniLM-L12-H384-uncased · Hugging Face}, publisher={Huggingface}, author={patrickvonplaten}} 
 
@@ -126,73 +121,26 @@ author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob 
 year={2023}, 
 month={Aug}}
 
+@misc{Meta_2023, title={Meta-llama/LLAMA-2-7B-HF · hugging face}, url={https://huggingface.co/meta-llama/Llama-2-7b-hf}, journal={meta-llama/Llama-2-7b-hf · Hugging Face}, publisher={Huggingface}, author={Meta}, year={2023}} 
 
+@misc{Deci_2024, title={Model Quantization and Quantization-Aware Training: Ultimate guide}, url={https://deci.ai/quantization-and-quantization-aware-training/#:~:text=What%20is%20Model%20Quantization%3F,%2Dbit%20or%208%2Dbit.}, 
+journal={Deci}, 
+author={Deci}, 
+year={2024}, 
+month={Mar}} 
 
+@misc{McKinsey_2024, title={What is prompt engineering?}, url={https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-prompt-engineering}, journal={McKinsey & Company}, publisher={McKinsey & Company}, author={McKinsey & Company}, year={2024}, month={Mar}} 
 
+@misc{Dettmers, title={Bitsandbytes}, url={https://huggingface.co/docs/bitsandbytes/main/en/index}, journal={bitsandbytes}, publisher={Huggingface}, author={Dettmers, Tim}} 
 
+@misc{Huggingface_peft, title={Huggingface/PEFT: State-of-the-art parameter-efficient fine-tuning.}, url={https://github.com/huggingface/peft}, journal={GitHub}, author={Huggingface}} 
 
-@CONFERENCE{bsw10icc,
-   AUTHOR  = "Johann A. Briffa and Hans Georg Schaathun and Stephan Wesemeyer",
-   TITLE   = "An Improved Decoding Algorithm for the {Davey-MacKay} Construction",
-   BOOKTITLE = "Proc.\ {IEEE} Intern.\ Conf.\ on Commun.",
-   ADDRESS = "Cape Town, South Africa",
-   MONTH   = may # "~23--27,",
-   YEAR    = 2010
-   }
+@misc{HuggingFace_lora, title={Lora}, url={https://huggingface.co/docs/diffusers/main/en/training/lora}, journal={LoRA}, author={HuggingFace}} 
 
-@ARTICLE{gamal,
-   AUTHOR   = "Abbas A. el Gamal and Lane A. Hemachandra and Itzhak Shperling and Victor K. Wei",
-   TITLE = "Using Simulated Annealing to Design Good Codes",
-   JOURNAL  = "IEEE Transactions on Information Theory",
-   YEAR  = 1987,
-   MONTH = jan,
-   VOLUME   = 33,
-   NUMBER   = 1,
-   PAGES = "116--123"
-   }
+@misc{Mudadla_2023, title={Difference between trainer class and SFTTrainer (supervised fine tuning trainer) in hugging face?}, url={https://medium.com/@sujathamudadla1213/difference-between-trainer-class-and-sfttrainer-supervised-fine-tuning-trainer-in-hugging-face-d295344d73f7}, journal={Medium}, publisher={Medium}, author={Mudadla, Sujatha}, year={2023}, month={Dec}} 
 
-@MISC{farrell,
-   AUTHOR   = "P. G. Farrell",
-   TITLE = "Notes on Source Coding",
-   MONTH = feb,
-   YEAR  = 1992,
-   NOTE  = "University of Manchester"
-   }
+@misc{Amrullah_2023, title={Classifying emotions in sentence text using neural networks}, url={https://www.analyticsvidhya.com/blog/2023/05/classifying-emotions-in-sentence-text-using-neural-networks/#:~:text=The%20main%20objective%20of%20doing,accuracy%20of%20machine%20translation%20systems.}, journal={Analytics Vidhya}, author={Amrullah, Ata}, year={2023}, month={May}} 
 
-@PHDTHESIS{tunstall,
-   AUTHOR   = "B. P. Tunstall",
-   TITLE = "Synthesis of Noiseless Compression Codes",
-   SCHOOL   = "Georgia Institute of Technology",
-   YEAR  = 1968
-   }
+@misc{Meta_roberta, title={Facebookai/Roberta-base · hugging face}, url={https://huggingface.co/FacebookAI/roberta-base}, journal={FacebookAI/roberta-base · Hugging Face}, author={HuggingFace}} 
 
-@BOOK{press,
-   AUTHOR   = "William H. Press and Saul A. Teukolsky and William T. Vetterling and Brian P. Flannery",
-   TITLE = "Numerical Recipes in {C}: The Art of Scientific Computing",
-   PUBLISHER   = "Cambridge Universty Press",
-   YEAR  = 1992,
-   EDITION  = "Second"
-   }
-
-@MANUAL{netpbm,
-   AUTHOR = "Bryan Henderson",
-   TITLE = "Netpbm",
-   URL = "http://netpbm.sourceforge.net/doc/",
-   MONTH = feb # "~22nd,",
-   YEAR = 2009
-   }
-
-@MANUAL{cuda-pg,
-   ORGANIZATION    = "NVIDIA Corporation",
-   TITLE   = "NVIDIA CUDA Programming Guide",
-   NOTE    = "Version 2.3",
-   MONTH   = jul # "~1st,",
-   YEAR    = 2009
-   }
-
-@TECHREPORT{bw1994,
-    author = {Michael Burrows and David J. Wheeler},
-    title = {A Block-Sorting Lossless Data Compression Algorithm},
-    institution = {Digital SRC Research Report},
-    year = {1994}
-}
+@misc{openai-community/gpt2, title={openai-community/gpt2 · hugging face}, url={https://huggingface.co/openai-community/gpt2}, journal={openai-community/gpt2 · Hugging Face}, author={HuggingFace}} 

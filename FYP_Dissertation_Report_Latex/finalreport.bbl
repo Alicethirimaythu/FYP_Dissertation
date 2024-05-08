@@ -12,12 +12,60 @@ Ameer, I., Bölücü, N., Siddiqui, M. H.~F., Can, B., Sidorov, G. \harvardand\
   Applications} {\bf 213},~118534.
 \newline\harvardurl{https://www.sciencedirect.com/science/article/pii/S0957417422016098}
 
+\harvarditem{Amrullah}{2023}{Amrullah_2023}
+Amrullah, A.  \harvardyearleft 2023\harvardyearright , `Classifying emotions in
+  sentence text using neural networks'.
+\newline\harvardurl{https://www.analyticsvidhya.com/blog/2023/05/classifying-emotions-in-sentence-text-using-neural-networks/#:~:text=The%20main%20objective%20of%20doing,accuracy%20of%20machine%20translation%20systems.}
+
+\harvarditem{Company}{2024}{McKinsey_2024}
+Company, M.~.  \harvardyearleft 2024\harvardyearright , `What is prompt
+  engineering?'.
+\newline\harvardurl{https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-prompt-engineering}
+
+\harvarditem{Deci}{2024}{Deci_2024}
+Deci  \harvardyearleft 2024\harvardyearright , `Model quantization and
+  quantization-aware training: Ultimate guide'.
+\newline\harvardurl{https://deci.ai/quantization-and-quantization-aware-training/#:~:text=What%20is%20Model%20Quantization%3F,%2Dbit%20or%208%2Dbit.}
+
+\harvarditem{Dettmers}{n.d.}{Dettmers}
+Dettmers, T.  \harvardyearleft n.d.\harvardyearright , `Bitsandbytes'.
+\newline\harvardurl{https://huggingface.co/docs/bitsandbytes/main/en/index}
+
 \harvarditem{Hashemi-Pour \harvardand\
   Lutkevich}{2024}{Hashemi-Pour_Lutkevich_2024}
 Hashemi-Pour, C. \harvardand\ Lutkevich, B.  \harvardyearleft
   2024\harvardyearright , `What is the bert language model?: Definition from
   techtarget.com'.
 \newline\harvardurl{https://www.techtarget.com/searchenterpriseai/definition/BERT-language-model#:~:text=BERT%2C%20which%20stands%20for%20Bidirectional,calculated%20based%20upon%20their%20connection.}
+
+\harvarditem{HuggingFace}{n.d.{\em a}}{Meta_roberta}
+HuggingFace  \harvardyearleft n.d.{\em a}\harvardyearright ,
+  `Facebookai/roberta-base · hugging face'.
+\newline\harvardurl{https://huggingface.co/FacebookAI/roberta-base}
+
+\harvarditem{HuggingFace}{n.d.{\em b}}{Hugging_Face}
+HuggingFace  \harvardyearleft n.d.{\em b}\harvardyearright , `Huggingface
+  homepage'.
+\newline\harvardurl{https://huggingface.co/}
+
+\harvarditem{Huggingface}{n.d.{\em c}}{Huggingface_peft}
+Huggingface  \harvardyearleft n.d.{\em c}\harvardyearright , `Huggingface/peft:
+  State-of-the-art parameter-efficient fine-tuning.'.
+\newline\harvardurl{https://github.com/huggingface/peft}
+
+\harvarditem{HuggingFace}{n.d.{\em d}}{HuggingFace_lora}
+HuggingFace  \harvardyearleft n.d.{\em d}\harvardyearright , `Lora'.
+\newline\harvardurl{https://huggingface.co/docs/diffusers/main/en/training/lora}
+
+\harvarditem{HuggingFace}{n.d.{\em e}}{openai-community/gpt2}
+HuggingFace  \harvardyearleft n.d.{\em e}\harvardyearright ,
+  `openai-community/gpt2 · hugging face'.
+\newline\harvardurl{https://huggingface.co/openai-community/gpt2}
+
+\harvarditem{IBM}{2024}{IBM_2024}
+IBM  \harvardyearleft 2024\harvardyearright , `What is natural language
+  processing?'.
+\newline\harvardurl{https://www.ibm.com/topics/natural-language-processing}
 
 \harvarditem{Iraqi}{2023}{Iraqi_2023}
 Iraqi, M.  \harvardyearleft 2023\harvardyearright , `Comparing the performance
@@ -35,6 +83,17 @@ Krugmann, J.~O. \harvardand\ Hartmann, J.  \harvardyearleft
   2024\harvardyearright , `Sentiment analysis in the age of generative ai -
   customer needs and solutions'.
 \newline\harvardurl{https://link.springer.com/article/10.1007/s40547-024-00143-4#Tab1}
+
+\harvarditem{Meta}{2023}{Meta_2023}
+Meta  \harvardyearleft 2023\harvardyearright , `Meta-llama/llama-2-7b-hf ·
+  hugging face'.
+\newline\harvardurl{https://huggingface.co/meta-llama/Llama-2-7b-hf}
+
+\harvarditem{Mudadla}{2023}{Mudadla_2023}
+Mudadla, S.  \harvardyearleft 2023\harvardyearright , `Difference between
+  trainer class and sfttrainer (supervised fine tuning trainer) in hugging
+  face?'.
+\newline\harvardurl{https://medium.com/@sujathamudadla1213/difference-between-trainer-class-and-sfttrainer-supervised-fine-tuning-trainer-in-hugging-face-d295344d73f7}
 
 \harvarditem{Nedilko}{n.d.}{Nedilko}
 Nedilko, A.  \harvardyearleft n.d.\harvardyearright , `Generative pretrained
@@ -84,11 +143,6 @@ Wang, W., Wei, F., Dong, L., Bao, H., Yang, N. \harvardand\ Zhou, M.
   \harvardyearleft 2020\harvardyearright , `Minilm: Deep self-attention
   distillation for task-agnostic compression of pre-trained transformers'.
 \newline\harvardurl{https://arxiv.org/abs/2002.10957}
-
-\harvarditem{{\em What is natural language processing (NLP)?}}{n.d.}{nlp}
-{\em What is natural language processing (NLP)?}  \harvardyearleft
-  n.d.\harvardyearright .
-\newline\harvardurl{https://www.ibm.com/topics/natural-language-processing}
 
 \harvarditem[Zhang et~al.]{Zhang, Wang, Wu, Tiwari, Li, Wang \harvardand\
   Qin}{2024}{zhang2024dialoguellm}

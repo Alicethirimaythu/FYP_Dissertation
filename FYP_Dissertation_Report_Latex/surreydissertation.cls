@@ -12,6 +12,7 @@
 
 \RequirePackage[T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
+\RequirePackage{multicol}
 
 \RequirePackage[left=1.0in,right=1.0in,top=1.0in,bottom=1.0in,
    head=0.5in,foot=0.5in]{geometry}
@@ -19,6 +20,7 @@
 \RequirePackage{graphicx}
 \RequirePackage{subfigure}
 \RequirePackage{hyperref}
+% \RequirePackage{IEEEtran}
 \RequirePackage{harvard}
 \RequirePackage[centertags,reqno]{amsmath}
 
@@ -50,9 +52,10 @@
   tabsize=2
 }
 
+% \Requirepackage[numbers]{natbib}
 % Fix for harvard package use with MikTeX and LyX
 \renewcommand{\harvardurl}{URL: \url}
-
+% \RequirePackage[breaklinks]{hyperref}
 % Layout settings
 
 \setlength{\parindent}{0in}

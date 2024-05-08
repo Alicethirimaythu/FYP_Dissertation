@@ -6,21 +6,44 @@
 \contentsline {section}{\numberline {1.5}Limitations}{10}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Literature Review}{11}{chapter.2}%
 \contentsline {section}{\numberline {2.1}What are basic emotions?}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Transformers}{12}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}BERT based models}{13}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}RoBERTa}{13}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}MiniLM}{13}{subsubsection.2.2.1.2}%
-\contentsline {subsection}{\numberline {2.2.2}GPT}{14}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Llama2}{14}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Overall}{15}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Technical Review}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Dataset}{16}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Methods}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Main libraries}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Loading datasets}{18}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Pre-trained Models}{18}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}MiniLM}{18}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Llama2}{19}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}RoBERTa}{19}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}GPT-2}{19}{subsection.3.5.4}%
-\contentsline {section}{\numberline {3.6}Metrics}{19}{section.3.6}%
+\contentsline {section}{\numberline {2.2}Why Emotion Classification?}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Transformers}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}BERT based models}{13}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}RoBERTa}{13}{subsubsection.2.3.1.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.2}MiniLM}{14}{subsubsection.2.3.1.2}%
+\contentsline {subsection}{\numberline {2.3.2}GPT}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Llama2}{15}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Overall}{16}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Technical Review}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dataset}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Methods}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Main libraries}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Loading datasets}{19}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Prompt and Prompt Engineering}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Preprocessing}{20}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Pre-trained Models}{20}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}MiniLM}{21}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}RoBERTa}{21}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}GPT-2}{21}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Llama2}{21}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}Tokenisation}{21}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}MiniLM}{21}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}RoBERTa}{22}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3}GPT-2}{22}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4}LLama2}{22}{subsection.3.8.4}%
+\contentsline {section}{\numberline {3.9}Loading Models}{23}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Training Arguments and Trainer}{24}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}PEFT}{24}{subsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.10.2}SFTTrainer}{25}{subsection.3.10.2}%
+\contentsline {section}{\numberline {3.11}Testing Metrics}{26}{section.3.11}%
+\contentsline {chapter}{\numberline {4}Test Analysis}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}MiniLM}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}RoBERTa}{30}{section.4.2}%
+\contentsline {section}{\numberline {4.3}GPT-2}{32}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Llama2}{34}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Evaluation}{36}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Evaluation of Each Model}{36}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Overall Evaluation}{36}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Future Work}{36}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Statement of Ethics}{37}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusion of this Project}{38}{chapter.7}%
