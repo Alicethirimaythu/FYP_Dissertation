@@ -17,6 +17,16 @@ Amrullah, A.  \harvardyearleft 2023\harvardyearright , `Classifying emotions in
   sentence text using neural networks'.
 \newline\harvardurl{https://www.analyticsvidhya.com/blog/2023/05/classifying-emotions-in-sentence-text-using-neural-networks/#:~:text=The%20main%20objective%20of%20doing,accuracy%20of%20machine%20translation%20systems.}
 
+\harvarditem{Bhadresh}{2023{\em a}}{Bhadresh_2023_distilbert}
+Bhadresh, S.  \harvardyearleft 2023{\em a}\harvardyearright ,
+  `Bhadresh-savani/distilbert-base-uncased-emotion · hugging face'.
+\newline\harvardurl{https://huggingface.co/bhadresh-savani/distilbert-base-uncased-emotion}
+
+\harvarditem{Bhadresh}{2023{\em b}}{Bhadresh_2023_roberta}
+Bhadresh, S.  \harvardyearleft 2023{\em b}\harvardyearright ,
+  `Bhadresh-savani/roberta-base-emotion · hugging face'.
+\newline\harvardurl{https://huggingface.co/bhadresh-savani/roberta-base-emotion}
+
 \harvarditem{Company}{2024}{McKinsey_2024}
 Company, M.~.  \harvardyearleft 2024\harvardyearright , `What is prompt
   engineering?'.
@@ -26,6 +36,13 @@ Company, M.~.  \harvardyearleft 2024\harvardyearright , `What is prompt
 Deci  \harvardyearleft 2024\harvardyearright , `Model quantization and
   quantization-aware training: Ultimate guide'.
 \newline\harvardurl{https://deci.ai/quantization-and-quantization-aware-training/#:~:text=What%20is%20Model%20Quantization%3F,%2Dbit%20or%208%2Dbit.}
+
+\harvarditem[Demszky et~al.]{Demszky, Movshovitz-Attias, Ko, Cowen, Nemade
+  \harvardand\ Ravi}{2020}{Demszky_Movshovitz-Attias_Ko_Cowen_Nemade_Ravi_2020}
+Demszky, D., Movshovitz-Attias, D., Ko, J., Cowen, A., Nemade, G. \harvardand\
+  Ravi, S.  \harvardyearleft 2020\harvardyearright , `Goemotions: A dataset of
+  fine-grained emotions'.
+\newline\harvardurl{https://arxiv.org/abs/2005.00547}
 
 \harvarditem{Dettmers}{n.d.}{Dettmers}
 Dettmers, T.  \harvardyearleft n.d.\harvardyearright , `Bitsandbytes'.
@@ -89,6 +106,11 @@ Meta  \harvardyearleft 2023\harvardyearright , `Meta-llama/llama-2-7b-hf ·
   hugging face'.
 \newline\harvardurl{https://huggingface.co/meta-llama/Llama-2-7b-hf}
 
+\harvarditem{Meta}{2024}{Meta_guideline_2024}
+Meta  \harvardyearleft 2024\harvardyearright , `Responsible use guide for llama
+  2'.
+\newline\harvardurl{https://llama.meta.com/responsible-use-guide}
+
 \harvarditem{Mudadla}{2023}{Mudadla_2023}
 Mudadla, S.  \harvardyearleft 2023\harvardyearright , `Difference between
   trainer class and sfttrainer (supervised fine tuning trainer) in hugging
@@ -99,6 +121,10 @@ Mudadla, S.  \harvardyearleft 2023\harvardyearright , `Difference between
 Nedilko, A.  \harvardyearleft n.d.\harvardyearright , `Generative pretrained
   transformers for emotion detection in a code-switching setting'.
 \newline\harvardurl{https://aclanthology.org/2023.wassa-1.61/}
+
+\harvarditem{OpenAI}{2019}{OpenAI_policy_2019}
+OpenAI  \harvardyearleft 2019\harvardyearright .
+\newline\harvardurl{https://openai.com/index/better-language-models}
 
 \harvarditem{Pandey}{2021}{Pandey_2021}
 Pandey, P.  \harvardyearleft 2021\harvardyearright , `Emotion dataset for

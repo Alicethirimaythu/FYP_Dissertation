@@ -152,8 +152,12 @@
    \pagestyle{empty}
    \vspace*{\stretch{1}}
    % statement of originality
-   I declare that this dissertation is my own work and that the work of
-   others is acknowledged and indicated by explicit references.\\[12pt]
+   I confirm that the submitted work is my own work.
+   No element has been previously submitted for assessment, or where it has, it has been correctly referenced.
+   I have clearly identified and fully acknowledged all material that is entitled to be attributed to others (whether published or unpublished) using the referencing system set out in the program handbook.
+
+   I agree that the University may submit my work to means of checking this, such as the plagiarism detection service Turnitin® UK and the Turnitin® Authorship Investigate service.
+   I confirm that I understand that assessed work that has been shown to have been plagiarised will be penalised.\\[12pt]
    \@author\\
    \@date
    \vspace*{\stretch{2}}

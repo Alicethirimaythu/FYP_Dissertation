@@ -6,7 +6,7 @@ The analysis of testing and training will be discussed in this chapter. This inc
 \section{MiniLM}
 Before the training, I tried testing the model with the test dataset. The \textit{predict} and \textit{evaluate} function used are not from \textit{Trainer} class. The result of zero-shot testing is rather surprising as it only predict "surprise" labels, making the accuracy to 3.33\%. Other metrics are not noteworthy to mention as "surprise" label is the only one with the metrics. Therefore, the model is not suitable for zero-shot testing and further need to fine-tune and train the model for this project's downstream task. 
 
-The training hyperparameters are as shown in table(\ref{tab:hyp_MiniLM}) and the numbers of epochs trained are 6, 12 and 18. The hyperparameters are not changed for any of the epochs. The learning rate and the weight decay are set very low so that the weights from model checkpoint change so quickly. The higher the learning rate, the faster the convergence rate occurs and could cause overfitting.
+The training hyperparameters are as shown in table(\ref{tab:hyp_MiniLM}) and the numbers of epochs trained are 6, 12 and 18. The numbers of epochs are increased in multiple of six to see if the model performs better the more it is trained. The hyperparameters are not changed for any of the epochs. The learning rate and the weight decay are set very low so that the weights from model checkpoint change so quickly. The higher the learning rate, the faster the convergence rate occurs and could cause overfitting.
 
 \textbf{Hyperparameters:}
 
@@ -170,7 +170,7 @@ The table(\ref{tab:overall_metrics_rob}) shows that the best epochs out of all t
     \end{minipage}%
 \end{figure}
 
-The model is good at classifying the labels such as "sadness", "joy", "anger" and "surprise" as the number for each label correctly predicted increases. The diagrams of confusion matrix for each number of epochs can be seen in figure(\ref{fig:conf_6_rob}), (\ref{fig:conf_12_rob}) and (\ref{fig:conf_18_rob}). The label "joy" and "love" was mixed up, similar to MiniLM model however, the model predicted "joy" instead of "love" more as the number of epochs increased.
+The model is good at classifying the labels such as "sadness", "joy", "anger" and "surprise" as the number for each label correctly predicted increases. The diagrams of confusion matrix for each number of epochs can be seen in figure(\ref{fig:conf_6_rob}), (\ref{fig:conf_12_rob}) and (\ref{fig:conf_18_rob}). The label "joy" and "love" was mixed up, similar to MiniLM model however, the model predicted "joy" instead of "love" more as the number of epochs increased. This maybe because "joy" and "love" both are emotions that are similar to each other and most of the time, they are expressed together.
 
 \section{GPT-2}
 As for GPT-2, the prediction's accuracy is a bit better than the models above when it was tested before the training. The accuracy overall for it is 34.6\% however, the label that is mainly predicted is "joy". The f1-score is 9\%. Thus, GPT-2 is also the model which is not good for zero-shot testing.

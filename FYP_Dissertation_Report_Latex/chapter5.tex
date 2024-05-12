@@ -2,7 +2,65 @@
 
 \chapter{Evaluation}
 
-\section{Evaluation of Each Model}
-\section{Overall Evaluation}
+This chapter is for evaluating the outcome of each model with the results from other researches mentioned in the literature review. The results of other model that used the same dataset will be evaluated along to give a comparative analysis of the models that is implemented in this project. The future work will also be discussed in this chapter as well.
+
+\section{Evaluation of Models' Results}
+Firstly, the results from table(\ref{tab:overall_metrics_for_all_models}) listed are the results got from testing the fine-tuned models on the test dataset. The overall f1-score is the overall macro f1-score as I believed that weighted f1-score is not suitable metric for the dataset as the dataset is unbalanced. The reason was because the weighted f1-score gives more supports for the commonly present labels in the dataset which help boosted their f1-scores. This is not the case for this project as this project wanted to boost the f1-scores on the rare classes rather than common classes. The same can be said for precision and recall.
+
+Apart from Llama2, all the models have similar results as all of them have overall accuracy of around 93\%. The same for overall macro f1-score as well, as both MiniLM and RoBERTa have the same f1-score but GPT-2 has 1\% less than them. Nevertheless, Llama2 did well for zero-shot testing as it got nearly 50\% accuracy however f1-score is not really the best.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}\hline
+          Model  & Precision & Recall & Macro F1-score & Accuracy\\\hline
+           MiniLM(12 epochs) & 0.90 & 0.87 & 0.89 & 0.93\\\hline
+           RoBERTa(18 epochs) & 0.89 & 0.9 & 0.89 & 0.93\\\hline
+           GPT-2(2 epochs) & 0.89 & 0.88 & 0.88 & 0.931\\\hline
+           Llama2(zero-shot) & 0.43 & 0.34 & 0.33 & 0.494\\\hline
+    \end{tabular}
+    \caption{The table for the best overall values of every metrics of all models}
+    \label{tab:overall_metrics_for_all_models}
+\end{table}
+
+According to HuggingFace, the best model that \textit{"Bhadresh-savani"} used the same dataset is DistilBERT with average accuracy of 93.8\% and f1-score of 88.3\%\cite{Bhadresh_2023_distilbert}. The model is trained with the same learning rate and batch size with the BERT-based models of this project. The same person also used RoBERTa to train the same dataset\cite{Bhadresh_2023_roberta}. Its accuracy is the same as shown in the table however, the f1-score of this project's RoBERTa is 1\% better. The other models that used the same are either not found or their results are not shown.
+
+Furthermore, it may not be much comparison with the results that the models got in the literature review as it is not the same task or dataset used. However, I believed it is similar enough to mention them. For RoBERTa model, the paper\cite{AMEER2023118534}'s best model for the English dataset is RoBERTa with an accuracy of 61.2\% and 73.7\% for the f1-score which is lower than the results got in this project. Nevertheless, it still was the best considering the classification is multi-label classification. 
+
+As for GPT-2, the model may not be suitable for zero-shot method, after the training, it did better than GPT-3.5 (87.7\%) and has a similar result as GPT-4 (93.1\%) in terms of accuracy which are from the paper, "Sentiment Analysis in the Age of Generative AI"\cite{Krugmann_Hartmann_2024}. 
+
+As for Llama2, it did the worst out of all the model. The model was also hard to train as it is a massive model and even with the help of PEFT and SFTTrainer, it took so long to train. Nonetheless, I trained it on my friend's computer which have enough GPU power to train 3 epochs in around 4 hours. Unfortunately, the testing result is not the best, resulting in an overall accuracy of around 29\% and f1-score less than 10\%. I believed that the prompt for the sample is the problem, the prompt can be seen in listing(\ref{lst:prompt_adding}). The long prompt might have caused truncating the actual samples as in training arguments the max token length is set to 1024. Another issue is the max token length in prediction. It was set to 4 as setting it to 1, only predicted white spaces and setting it 2 and 3 cut off sadness and surprise. Setting it 4 get all the label outputs however, also output random predictions which are not the labels of the dataset. Therefore, I believed with better prompt engineering and GPU power, it could be the best model for emotion classification as the potential for it can be seen in the result for zero-shot method in table(\ref{tab:overall_metrics_for_all_models}).
+
+Moreover, if it was compared to the result done by one of the studies in literature review for zero-shot methods, it did worse than the paper, "Sentiment Analysis in the Age of Generative AI"\cite{Krugmann_Hartmann_2024} as they achieved the accuracy of 90.9\%. However, for the other paper mentioned, it did so much better as the overall accuracy and f1-score achieved there were 25.31\% and 21.91\% respectively. This means that the accuracy is two times better and achieved f1-score 10\% more. Thus, I further believed that the prompt and prompt engineering as well as the input data affect significantly on the model's performance.
+
+As for the dataset, it is not the best dataset to determine the project's purpose of searching for best model for emotion classification as the usage of inappropriate words and sentences are not filtered out and could result in model's prediction outside the dataset will be biased and not accurate. It is also single-label classification which compared to real-life, not accurately represented as one sentence may contain more than one emotion which could be contradicting and complexed.
+
+Overall, all the model except Llama2, performed very well for this downstream task as the accuracy is higher than 93\% and f1-scores are 1 or 2\% away from 90\%. The dataset may not be unbalanced but with calculating the class weights manually to balance it out perhaps helped with the training and result in high performance. 
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
 \section{Future Work}
 
+The main focus on my future work is to work on a multi-label emotion classification task. Therefore, I need to find a suitable dataset to work on the task as the dataset I had used in this dissertation is good enough for single-label classification however it is not multi-labelled dataset. I believed that the emotion classification task is needed to be multi-label classification as one emotion is not enough to portray the author's emotions and mental state. This is also true for finding a dataset with wider range of emotions as limiting to just 6 basic emotions when emotions are complexed and sometime conflicting, may not be the exact emotion that the sentence is trying to express and will be too generalising. 
+
+The suitable dataset I found during my late stages of this project is \textit{"Go\_emotions"} dataset from HuggingFace\cite{Demszky_Movshovitz-Attias_Ko_Cowen_Nemade_Ravi_2020}. It is for multi-label emotion classification task and has 58k sample data for raw version. It has two versions: raw and simplified. In which raw has more columns (inputs) and each emotion are listed as a column and presented emotions in the sample are set to one and the rest to zero. Simplified has only 3 columns which are text, labels and id (reddit user\_id). Furthermore, it was not preprocessed or split into train, test and validation dataset. In which in future work, I want to experiment if preprocessing and splitting dataset will affect the performance of the model.
+
+Finally, There is a possibility to improve Llama2 model mentioned above section. Prompt engineering on Llama2 will be useful in emotion classification task therefore, experimenting on different prompts to see if the model improve or not will be my next motivation in my future work. I would also like to work on optimising hyperparameters such as using different optimiser, loss function, learning rate and so on to further improve the models that are implemented in this project.

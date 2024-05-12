@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.2)  8 MAY 2024 05:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.2)  12 MAY 2024 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -521,7 +521,7 @@ Chapter 1.
 
  (chapter2.tex
 Chapter 2.
-<Figures/six_emotions.png, id=306, 402.00188pt x 266.49562pt>
+<Figures/six_emotions.png, id=301, 402.00188pt x 266.49562pt>
 File: Figures/six_emotions.png Graphic file (type png)
 <use Figures/six_emotions.png>
 Package pdftex.def Info: Figures/six_emotions.png  used on input line 12.
@@ -532,34 +532,34 @@ Package pdftex.def Info: Figures/six_emotions.png  used on input line 12.
 
 
  <./Figures/six_emotions.png>]
-<Figures/rnn-transf-nlp.jpg, id=315, 2007.5pt x 770.88pt>
+<Figures/rnn-transf-nlp.jpg, id=310, 2007.5pt x 770.88pt>
 File: Figures/rnn-transf-nlp.jpg Graphic file (type jpg)
 <use Figures/rnn-transf-nlp.jpg>
 Package pdftex.def Info: Figures/rnn-transf-nlp.jpg  used on input line 29.
 (pdftex.def)             Requested size: 341.2705pt x 131.04787pt.
-<Figures/encoder-decoder.jpg, id=317, 1684.2925pt x 2437.105pt>
+<Figures/encoder-decoder.jpg, id=312, 1684.2925pt x 2437.105pt>
 File: Figures/encoder-decoder.jpg Graphic file (type jpg)
 <use Figures/encoder-decoder.jpg>
 Package pdftex.def Info: Figures/encoder-decoder.jpg  used on input line 37.
 (pdftex.def)             Requested size: 185.27275pt x 268.08238pt.
  [12 <./Figures/rnn-transf-nlp.jpg>] [13 <./Figures/encoder-decoder.jpg>]
-<Figures/deep_self-distillation.png, id=331, 726.46407pt x 328.97906pt>
+<Figures/deep_self-distillation.png, id=326, 726.46407pt x 328.97906pt>
 File: Figures/deep_self-distillation.png Graphic file (type png)
 <use Figures/deep_self-distillation.png>
 Package pdftex.def Info: Figures/deep_self-distillation.png  used on input line 66.
 (pdftex.def)             Requested size: 363.23114pt x 164.48912pt.
  [14 <./Figures/deep_self-distillation.png>]
-<Figures/dialogueLLM.png, id=340, 687.31781pt x 319.94531pt>
+<Figures/dialogueLLM.png, id=335, 687.31781pt x 319.94531pt>
 File: Figures/dialogueLLM.png Graphic file (type png)
 <use Figures/dialogueLLM.png>
-Package pdftex.def Info: Figures/dialogueLLM.png  used on input line 89.
+Package pdftex.def Info: Figures/dialogueLLM.png  used on input line 84.
 (pdftex.def)             Requested size: 467.36993pt x 217.55992pt.
  [15 <./Figures/dialogueLLM.png>]) [16]
 \openout2 = `chapter3.aux'.
 
  (chapter3.tex
 Chapter 3.
-<Figures/dataset_distribution.png, id=351, 462.528pt x 346.896pt>
+<Figures/dataset_distribution.png, id=346, 462.528pt x 346.896pt>
 File: Figures/dataset_distribution.png Graphic file (type png)
 <use Figures/dataset_distribution.png>
 Package pdftex.def Info: Figures/dataset_distribution.png  used on input line 17.
@@ -570,7 +570,7 @@ Package pdftex.def Info: Figures/dataset_distribution.png  used on input line 17
 
 
  <./Figures/dataset_distribution.png>]
-<Figures/problem_pipeline.png, id=359, 932.73468pt x 353.06906pt>
+<Figures/problem_pipeline.png, id=354, 932.73468pt x 353.06906pt>
 File: Figures/problem_pipeline.png Graphic file (type png)
 <use Figures/problem_pipeline.png>
 Package pdftex.def Info: Figures/problem_pipeline.png  used on input line 31.
@@ -582,18 +582,18 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 65.
  (C:\Users\alice\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [19] [20]
+) [19] [20] [21]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-[21]
+
 Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 [22] [23] [24]
-<Figures/Lora_brief.png, id=513, 300.12125pt x 252.945pt>
+<Figures/Lora_brief.png, id=506, 300.12125pt x 252.945pt>
 File: Figures/Lora_brief.png Graphic file (type png)
 <use Figures/Lora_brief.png>
 Package pdftex.def Info: Figures/Lora_brief.png  used on input line 276.
@@ -603,89 +603,82 @@ Package pdftex.def Info: Figures/Lora_brief.png  used on input line 276.
 
  (chapter4.tex
 Chapter 4.
-<Figures/minilm_12_epochs.png, id=618, 2135.98pt x 1332.98pt>
-File: Figures/minilm_12_epochs.png Graphic file (type png)
-<use Figures/minilm_12_epochs.png>
-Package pdftex.def Info: Figures/minilm_12_epochs.png  used on input line 33.
-(pdftex.def)             Requested size: 226.48395pt x 141.33995pt.
-<Figures/minilm_18_epochs.png, id=619, 2135.98pt x 1332.98pt>
-File: Figures/minilm_18_epochs.png Graphic file (type png)
-<use Figures/minilm_18_epochs.png>
-Package pdftex.def Info: Figures/minilm_18_epochs.png  used on input line 39.
-(pdftex.def)             Requested size: 226.48395pt x 141.33995pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [28
 
 
 
 
 ]
-<Figures/valid_acc_f1_12_epochs_minilm.png, id=629, 2135.98pt x 1332.98pt>
+<Figures/minilm_12_epochs.png, id=620, 2135.98pt x 1332.98pt>
+File: Figures/minilm_12_epochs.png Graphic file (type png)
+<use Figures/minilm_12_epochs.png>
+Package pdftex.def Info: Figures/minilm_12_epochs.png  used on input line 33.
+(pdftex.def)             Requested size: 226.48395pt x 141.33995pt.
+<Figures/minilm_18_epochs.png, id=621, 2135.98pt x 1332.98pt>
+File: Figures/minilm_18_epochs.png Graphic file (type png)
+<use Figures/minilm_18_epochs.png>
+Package pdftex.def Info: Figures/minilm_18_epochs.png  used on input line 39.
+(pdftex.def)             Requested size: 226.48395pt x 141.33995pt.
+<Figures/valid_acc_f1_12_epochs_minilm.png, id=624, 2135.98pt x 1332.98pt>
 File: Figures/valid_acc_f1_12_epochs_minilm.png Graphic file (type png)
 <use Figures/valid_acc_f1_12_epochs_minilm.png>
 Package pdftex.def Info: Figures/valid_acc_f1_12_epochs_minilm.png  used on input line 51.
 (pdftex.def)             Requested size: 226.48395pt x 141.33995pt.
-<Figures/val_acc_f1_18_epochs_minilm.png, id=630, 2135.98pt x 1332.98pt>
+<Figures/val_acc_f1_18_epochs_minilm.png, id=625, 2135.98pt x 1332.98pt>
 File: Figures/val_acc_f1_18_epochs_minilm.png Graphic file (type png)
 <use Figures/val_acc_f1_18_epochs_minilm.png>
 Package pdftex.def Info: Figures/val_acc_f1_18_epochs_minilm.png  used on input line 57.
 (pdftex.def)             Requested size: 226.48395pt x 141.33995pt.
  [29 <./Figures/minilm_12_epochs.png> <./Figures/minilm_18_epochs.png> <./Figures/valid_acc_f1_12_epochs_minilm.png> <./Figures/val_acc_f1_18_epochs_minilm.png>]
-<Figures/conf_metrix_minilm_6_epochs.png, id=649, 462.528pt x 346.896pt>
+<Figures/conf_metrix_minilm_6_epochs.png, id=641, 462.528pt x 346.896pt>
 File: Figures/conf_metrix_minilm_6_epochs.png Graphic file (type png)
 <use Figures/conf_metrix_minilm_6_epochs.png>
 Package pdftex.def Info: Figures/conf_metrix_minilm_6_epochs.png  used on input line 85.
 (pdftex.def)             Requested size: 226.48395pt x 169.86406pt.
-<Figures/conf_metrix_minilm_12_epochs.png, id=650, 462.528pt x 346.896pt>
+<Figures/conf_metrix_minilm_12_epochs.png, id=642, 462.528pt x 346.896pt>
 File: Figures/conf_metrix_minilm_12_epochs.png Graphic file (type png)
 <use Figures/conf_metrix_minilm_12_epochs.png>
 Package pdftex.def Info: Figures/conf_metrix_minilm_12_epochs.png  used on input line 91.
 (pdftex.def)             Requested size: 226.48395pt x 169.86406pt.
-<Figures/conf_metrix_minilm_18_epochs.png, id=651, 462.528pt x 346.896pt>
+<Figures/conf_metrix_minilm_18_epochs.png, id=643, 462.528pt x 346.896pt>
 File: Figures/conf_metrix_minilm_18_epochs.png Graphic file (type png)
 <use Figures/conf_metrix_minilm_18_epochs.png>
 Package pdftex.def Info: Figures/conf_metrix_minilm_18_epochs.png  used on input line 97.
 (pdftex.def)             Requested size: 226.48395pt x 169.86406pt.
-<Figures/val_train_loss_12_18 _epochs.png, id=653, 2537.48pt x 1332.98pt>
+<Figures/val_train_loss_12_18 _epochs.png, id=645, 2537.48pt x 1332.98pt>
 File: Figures/val_train_loss_12_18 _epochs.png Graphic file (type png)
 <use Figures/val_train_loss_12_18 _epochs.png>
 Package pdftex.def Info: Figures/val_train_loss_12_18 _epochs.png  used on input line 112.
 (pdftex.def)             Requested size: 431.36589pt x 226.60359pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[30 <./Figures/conf_metrix_minilm_6_epochs.png> <./Figures/conf_metrix_minilm_12_epochs.png> <./Figures/conf_metrix_minilm_18_epochs.png>]
-<Figures/val_ac_f1_12_rob.png, id=663, 2537.48pt x 1332.98pt>
+ [30 <./Figures/conf_metrix_minilm_6_epochs.png> <./Figures/conf_metrix_minilm_12_epochs.png> <./Figures/conf_metrix_minilm_18_epochs.png>]
+<Figures/val_ac_f1_12_rob.png, id=658, 2537.48pt x 1332.98pt>
 File: Figures/val_ac_f1_12_rob.png Graphic file (type png)
 <use Figures/val_ac_f1_12_rob.png>
 Package pdftex.def Info: Figures/val_ac_f1_12_rob.png  used on input line 123.
 (pdftex.def)             Requested size: 226.48395pt x 118.96637pt.
-<Figures/val_ac_f1_18_rob.png, id=664, 2537.48pt x 1332.98pt>
+<Figures/val_ac_f1_18_rob.png, id=659, 2537.48pt x 1332.98pt>
 File: Figures/val_ac_f1_18_rob.png Graphic file (type png)
 <use Figures/val_ac_f1_18_rob.png>
 Package pdftex.def Info: Figures/val_ac_f1_18_rob.png  used on input line 129.
 (pdftex.def)             Requested size: 226.48395pt x 118.96637pt.
  [31 <./Figures/val_train_loss_12_18 _epochs.png> <./Figures/val_ac_f1_12_rob.png> <./Figures/val_ac_f1_18_rob.png>]
-<Figures/conf_metrix_roberta_6_epochs.png, id=679, 462.528pt x 346.896pt>
+<Figures/conf_metrix_roberta_6_epochs.png, id=674, 462.528pt x 346.896pt>
 File: Figures/conf_metrix_roberta_6_epochs.png Graphic file (type png)
 <use Figures/conf_metrix_roberta_6_epochs.png>
 Package pdftex.def Info: Figures/conf_metrix_roberta_6_epochs.png  used on input line 155.
 (pdftex.def)             Requested size: 226.48395pt x 169.86406pt.
-<Figures/conf_metrix_roberta_12_epochs.png, id=680, 462.528pt x 346.896pt>
+<Figures/conf_metrix_roberta_12_epochs.png, id=675, 462.528pt x 346.896pt>
 File: Figures/conf_metrix_roberta_12_epochs.png Graphic file (type png)
 <use Figures/conf_metrix_roberta_12_epochs.png>
 Package pdftex.def Info: Figures/conf_metrix_roberta_12_epochs.png  used on input line 161.
 (pdftex.def)             Requested size: 226.48395pt x 169.86406pt.
-<Figures/conf_metrix_roberta_18_epochs.png, id=681, 462.528pt x 346.896pt>
+<Figures/conf_metrix_roberta_18_epochs.png, id=676, 462.528pt x 346.896pt>
 File: Figures/conf_metrix_roberta_18_epochs.png Graphic file (type png)
 <use Figures/conf_metrix_roberta_18_epochs.png>
 Package pdftex.def Info: Figures/conf_metrix_roberta_18_epochs.png  used on input line 167.
 (pdftex.def)             Requested size: 226.48395pt x 169.86406pt.
  [32 <./Figures/conf_metrix_roberta_6_epochs.png> <./Figures/conf_metrix_roberta_12_epochs.png> <./Figures/conf_metrix_roberta_18_epochs.png>] [33]
-<Figures/conf_metrix_gpt2_2_epochs.png, id=707, 462.528pt x 346.896pt>
+<Figures/conf_metrix_gpt2_2_epochs.png, id=702, 462.528pt x 346.896pt>
 File: Figures/conf_metrix_gpt2_2_epochs.png Graphic file (type png)
 <use Figures/conf_metrix_gpt2_2_epochs.png>
 Package pdftex.def Info: Figures/conf_metrix_gpt2_2_epochs.png  used on input line 248.
@@ -698,7 +691,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [34 <./Figures/conf_metrix_gpt2_2_epochs.png>]
-<Figures/conf_metrix_llama2_no_epochs.png, id=719, 462.528pt x 346.896pt>
+<Figures/conf_metrix_llama2_no_epochs.png, id=714, 462.528pt x 346.896pt>
 File: Figures/conf_metrix_llama2_no_epochs.png Graphic file (type png)
 <use Figures/conf_metrix_llama2_no_epochs.png>
 Package pdftex.def Info: Figures/conf_metrix_llama2_no_epochs.png  used on input line 309.
@@ -708,32 +701,32 @@ Package pdftex.def Info: Figures/conf_metrix_llama2_no_epochs.png  used on input
 
  (chapter5.tex
 Chapter 5.
-) [36
+[36
 
 
 
 
-]
+] [37]) [38]
 \openout2 = `chapter6.aux'.
 
  (chapter6.tex
 Chapter 6.
-) [37
+[39
 
 
 
 
-]
+]) [40]
 \openout2 = `chapter7.aux'.
 
  (chapter7.tex
 Chapter 7.
-) [38
+) [41
 
 
 
 
-] (finalreport.bbl
+] [42] (finalreport.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 15--19
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / www . analyticsvidhya . com / blog / 2023 / 05 /
  []
@@ -749,69 +742,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / www . mckinsey . com / featured-[]insights / mckinsey-[]explainers /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--40
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / www . techtarget . com / searchenterpriseai / definition /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--40
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
 \T1/cmtt/m/n/10.95 BERT-[]language-[]model# : ~ : text = BERT % 2C % 20which % 20stands % 20for % 20Bidirectional ,[]
  []
 
-[39
+[43
 
 
 
 ]
-Overfull \hbox (409.9629pt too wide) in paragraph at lines 70--74
+Overfull \hbox (409.9629pt too wide) in paragraph at lines 87--91
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / medium . com / @mehdi . iraqui / comparing-[]the-[]performance-[]of-[]llms-[]a-[]deep-[]dive-[]into-[]roberta-[]llama-[]and-[]mistral-[]for-[]disaster-[]tweets-[]8069e717548a$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
+Underfull \hbox (badness 10000) in paragraph at lines 92--97
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / medium . com / @livajorge7 / roberta-[]vs-[]86ee82a44969# : ~ : text =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--80
+Underfull \hbox (badness 10000) in paragraph at lines 92--97
 \T1/cmtt/m/n/10.95 Pretraining % 20Objectives % 3A % 20RoBERTa % 20is % 20pretrained ,[] masked % 20words %
  []
 
 
-Overfull \hbox (431.09639pt too wide) in paragraph at lines 92--97
+Overfull \hbox (431.09639pt too wide) in paragraph at lines 114--119
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / medium . com / @sujathamudadla1213 / difference-[]between-[]trainer-[]class-[]and-[]sfttrainer-[]supervised-[]fine-[]tuning-[]trainer-[]in-[]hugging-[]face-[]d295344d73f7$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--126
+Underfull \hbox (badness 10000) in paragraph at lines 148--152
 \T1/cmr/m/n/10.95 URL: []$\T1/cmtt/m/n/10.95 https : / / www . analyticsvidhya . com / blog / 2022 / 10 /
  []
 
-) [40] (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (chapter7.aux))
+[44]) [45] (finalreport.aux (abstract.aux) (acknowledgements.aux) (abbrev.aux) (chapter1.aux) (chapter2.aux) (chapter3.aux) (chapter4.aux) (chapter5.aux) (chapter6.aux) (chapter7.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `finalreport.out' has not changed.
-(rerunfilecheck)             Checksum: 83892177075BD9C01101CD706ABE1529;5964.
+(rerunfilecheck)             Checksum: 2A418DEC80B99E538BD36F0B32308DA5;5841.
  ) 
 Here is how much of TeX's memory you used:
- 13861 strings out of 475248
- 219033 string characters out of 5757813
- 2224785 words of memory out of 5000000
- 34828 multiletter control sequences out of 15000+600000
+ 13886 strings out of 475248
+ 219768 string characters out of 5757813
+ 2206785 words of memory out of 5000000
+ 34849 multiletter control sequences out of 15000+600000
  573169 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,12n,93p,1188b,2048s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,93p,1373b,2048s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\alice\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on finalreport.pdf (41 pages, 2197183 bytes).
+Output written on finalreport.pdf (46 pages, 2215245 bytes).
 PDF statistics:
- 1416 PDF objects out of 1440 (max. 8388607)
- 317 named destinations out of 1000 (max. 500000)
- 508 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1443 PDF objects out of 1728 (max. 8388607)
+ 321 named destinations out of 1000 (max. 500000)
+ 500 words of extra memory for PDF output out of 10000 (max. 10000000)
 

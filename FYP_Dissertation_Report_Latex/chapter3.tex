@@ -19,7 +19,7 @@ The dataset that is used to train and test is from \textit{"Emotion Dataset for 
     \label{fig:dataset}
 \end{figure}
 
-The distribution of each label for train dataset is not equal, the most being joy and the least being surprise. The Figure[\ref{fig:dataset}] will show the distribution of train dataset. 
+For the training dataset, the distribution of labels of the emotion data is not equal; "surprise" has the lowest distribution and "joy" has the highest. The distribution is displayed in Figure(\ref{fig:dataset}).
 
 
 
@@ -37,7 +37,7 @@ The Figure[\ref{fig:pipeline}] shows the overall implementation of each model. T
 
 The main benefit of using notebooks for the implementation is ability to break sections of code into blocks of code or 'cells' to make it easier to see and follow through. It also makes sectioned code easier to test and check for errors. For example, if the variables or code need to be checked to ensure their functionalities, or to check the features of datasets, cells can be added to verify and deleted after. Another benefit is that the cells can be 'markdown cells' which makes sectioning the code easier, can write titles and paragraphs overviewing each section, allowing anyone to understand the implementation quicker.
 
-The pretrained models that I used for the implementation are all from Huggingface\cite{Hugging_Face}. Huggingface is a substantial platform for an AI community. It's also accommodating for any new keen learner with their work through videos and documents. It also provides many tools such as different models, datasets, accessibilities to any Ai applications made by the community, documents for specific libraries and methods, solutions and finally an ability to communicate or ask about any Ai related queries with other members in the community.
+For the implementation of this study, all the pre-trained models used were taken from HuggingFace \cite{Hugging_Face}. HuggingFace is a substantial platform for an AI community. It's also accommodating for any new keen learner with their work through videos and documents. It also provides many tools such as different models, datasets, accessibilities to any Ai applications made by the community, documents for specific libraries and methods, solutions and finally an ability to communicate or ask about any Ai related queries with other members in the community.
 
 \section{Main libraries}
 The following are the libraries used throughout all the models that are implemented, and the brief descriptions of their use and what they provide:
@@ -252,7 +252,7 @@ class WeightedLossTrainer(Trainer):
 
 As for GPT-2, The \textit{TrainingArguments} are the same with RoBERTa and MiniLM however, instead of \textit{WeightedLossTrainer}, standard \textit{Trainer} is implemented.
 
-Finally, Llama2 is difference as it LLMs and the model is very huge to run normally. Thus, like it is discussed in the above section, \textit{BitsandBytes}, as well as \textit{PEFT} and \textit{SFTTrainer}  library to help train LLama2 efficiently\cite{Huggingface_peft}. 
+Finally, Llama2 is different as it LLMs and the model is very huge to run normally. Thus, like it is discussed in the above section, \textit{BitsandBytes}, as well as \textit{PEFT} and \textit{SFTTrainer} library are used to help train LLama2 efficiently\cite{Huggingface_peft}. 
 
 \subsection{PEFT}
 \textit{PEFT} or Parametric-Efficient Fine-tuning is a method which reduces down a huge amount of parameters into a smaller desirable size which makes the large models to be efficiently adapt to any downstream tasks\cite{Huggingface_peft}. This helps reducing the cost of storage and computation significantly\cite{Huggingface_peft}. \textit{LoraConfig} from \textit{PEFT} is used in this implementation. LoRA or Low-rank adaptation is a technique that allow the user to reduce significantly the number of original model's parameters to run faster and be efficient\cite{HuggingFace_lora}. \textit{lora\_r} or LoRA rank is an inner dimension of the low-rank matrices; a higher rank means allowing more trainable parameters\cite{HuggingFace_lora}. the rank was set to 16 which is the middle ground as it is range from 4 to 64, so it will not take too much GPU consumptions\cite{HuggingFace_lora}. The figure(\ref{fig:Lora}) summarised the structure of LoRA. The code for the configuration is shown in the listing(\ref{lst:lora_config}).
